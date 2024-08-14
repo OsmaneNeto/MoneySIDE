@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)leadtools.ocr.languages.main.net\23.0.0.2\build\net7.0\Leadtools.Ocr.Languages.Main.NET.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.ocr.languages.main.net\23.0.0.2\build\net7.0\Leadtools.Ocr.Languages.Main.NET.targets')" />
+    <Import Project="$(NuGetPackageRoot)leadtools.kernel\23.0.0.2\build\net7.0\Leadtools.Kernel.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.kernel\23.0.0.2\build\net7.0\Leadtools.Kernel.targets')" />
+    <Import Project="$(NuGetPackageRoot)leadtools.formats.raster.common\23.0.0.2\build\net7.0\Leadtools.Formats.Raster.Common.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.formats.raster.common\23.0.0.2\build\net7.0\Leadtools.Formats.Raster.Common.targets')" />
+    <Import Project="$(NuGetPackageRoot)leadtools.image.processing\23.0.0.2\build\net7.0\Leadtools.Image.Processing.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.image.processing\23.0.0.2\build\net7.0\Leadtools.Image.Processing.targets')" />
+    <Import Project="$(NuGetPackageRoot)leadtools.ocr\23.0.0.2\build\net7.0\Leadtools.Ocr.targets" Condition="Exists('$(NuGetPackageRoot)leadtools.ocr\23.0.0.2\build\net7.0\Leadtools.Ocr.targets')" />
+  </ImportGroup>
+</Project>
