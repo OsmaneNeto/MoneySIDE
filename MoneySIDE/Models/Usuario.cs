@@ -1,4 +1,4 @@
-﻿using MoneySIDE.Data;
+﻿
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
