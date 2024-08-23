@@ -12,9 +12,11 @@ using Leadtools.Ocr;
 using Leadtools.Codecs;
 using Leadtools.Ocr.LEADEngine;
 using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MoneySIDE.Controllers
 {
+    [Authorize]
     public class ScannerController: Controller
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
@@ -25,7 +27,7 @@ namespace MoneySIDE.Controllers
         }
 
         // GET: BankStatement
-
+        
         public IActionResult Index()
         {
             return View();

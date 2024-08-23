@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj": {}
+    "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj": {}
   },
   "projects": {
-    "C:\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj": {
+    "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
+        "projectUniqueName": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
         "projectName": "MoneySIDE",
-        "projectPath": "C:\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
+        "projectPath": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Osmane\\MoneySIDE\\MoneySIDE\\obj\\",
+        "outputPath": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
