@@ -245,6 +245,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\tessdata\\eng.traineddata",
+      "PackagePath": "staticwebassets\\tessdata\\eng.traineddata"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\R.jfif",
+      "PackagePath": "staticwebassets\\uploads\\R.jfif"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\exNubank.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\exNubank.jpeg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\exNubank.jpg",
+      "PackagePath": "staticwebassets\\uploads\\exNubank.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoneySIDE.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
