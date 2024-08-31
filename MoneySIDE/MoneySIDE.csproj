@@ -27,6 +27,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
     <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="OpenCvSharp4" Version="4.10.0.20240616" />
     <PackageReference Include="SendGrid" Version="9.29.3" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.5" />
     <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="2.1.4" />
@@ -39,6 +40,7 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="wwwroot\tessdata\" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "02X3KIgMFp96DUwNDOK+kUGq/YaUFi0kFU6tALzqI/4WukZIkYSTy/vg/s+bfluVhQm8M7CWhtM1fktNWRmbVg==",
+  "dgSpecHash": "nT10G0y8XRMB8xXyRLrsxQtRPM4hJTyQnCVqmueq9UCngBSAduFeE8gTMb13dBU5kmtXqcMo1xGwWB3Ls4VniA==",
   "success": true,
   "projectFilePath": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
   "expectedPackageFiles": [
@@ -179,6 +179,7 @@
     "C:\\Users\\aluno\\.nuget\\packages\\nuget.projectmodel\\6.9.1\\nuget.projectmodel.6.9.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\nuget.protocol\\6.9.1\\nuget.protocol.6.9.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\nuget.versioning\\6.9.1\\nuget.versioning.6.9.1.nupkg.sha512",
+    "C:\\Users\\aluno\\.nuget\\packages\\opencvsharp4\\4.10.0.20240616\\opencvsharp4.4.10.0.20240616.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

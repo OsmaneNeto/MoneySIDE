@@ -11,7 +11,9 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
     }
 
-    protected override void OnModelCreating(ModelBuilder builder)
+	public DbSet<Comprovante> Comprovantes { get; set; }
+
+	protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
         // Customize the ASP.NET Identity model and override the defaults if needed.
