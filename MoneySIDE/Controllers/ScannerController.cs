@@ -20,6 +20,7 @@ using SixLabors.ImageSharp.Formats.Pbm;
 using SixLabors.ImageSharp.Processing.Processors.Quantization;
 using Microsoft.AspNetCore.Identity;
 using MoneySIDE.Areas.Identity.Data;
+using MoneySIDE.Models; 
 
 namespace MoneySIDE.Controllers
 {
@@ -30,188 +31,138 @@ namespace MoneySIDE.Controllers
 		private readonly ApplicationDbContext _context;
 		private readonly UserManager<IdentityUser> _userManager;
 
-		public ScannerController(IWebHostEnvironment hostingEnvironment)
+        public ScannerController(IWebHostEnvironment hostingEnvironment, ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _hostingEnvironment = hostingEnvironment;
+            _context = context; // Inicializando o contexto
+            _userManager = userManager; // Inicializando o UserManager
         }
 
-       
+
         public IActionResult Index()
         {
             return View();
         }
 
-		[HttpPost]
-		public IActionResult Upload(IFormFile file)
-		{
-			if (file != null && file.Length > 0)
-			{
-				string filePath = null;
-				try
-				{
-					// Diretório de uploads
-					string uploadsDir = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
-					filePath = Path.Combine(uploadsDir, file.FileName);
+        [HttpPost]
+        public IActionResult Upload(IFormFile file)
+        {
+        	if (file != null && file.Length > 0)
+        	{
+        		string filePath = null;
+        		try
+        		{
+        			// Diretório de uploads
+        			string uploadsDir = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
+        			filePath = Path.Combine(uploadsDir, file.FileName);
 
-					// Criação do diretório se não existir
-					if (!Directory.Exists(uploadsDir))
-					{
-						Directory.CreateDirectory(uploadsDir);
-					}
+        			// Criação do diretório se não existir
+        			if (!Directory.Exists(uploadsDir))
+        			{
+        				Directory.CreateDirectory(uploadsDir);
+        			}
 
-					// Salvar o arquivo no diretório de uploads
-					using (var stream = new FileStream(filePath, FileMode.Create))
-					{
-						file.CopyTo(stream);
-					}
+        			// Salvar o arquivo no diretório de uploads
+        			using (var stream = new FileStream(filePath, FileMode.Create))
+        			{
+        				file.CopyTo(stream);
+        			}
 
 					// Extrair texto do arquivo conforme o tipo
-					string extractedText = ExtractTextFromImage(filePath);
+        			string extractedText = ExtractTextFromImage(filePath);
 
-					string fileExtension = Path.GetExtension(filePath).ToLower();
-					if (fileExtension == ".pdf")
-					{
-						extractedText = ExtractTextFromPdf(filePath);
-					}
-					else if (fileExtension == ".jpg" || fileExtension == ".png")
-					{
-						extractedText = ExtractTextFromImage(filePath);
-					}
-					else
-					{
-						ViewBag.Result = "Tipo de arquivo não suportado.";
-						return View("Index");
-					}
+        			string fileExtension = Path.GetExtension(filePath).ToLower();
+        			if (fileExtension == ".pdf")
+        			{
+        				extractedText = ExtractTextFromPdf(filePath);
+        			}
+        			else if (fileExtension == ".jpg" || fileExtension == ".png")
+        			{
+        				extractedText = ExtractTextFromImage(filePath);
+        			}
+        			else
+        			{
+        				ViewBag.Result = "Tipo de arquivo não suportado.";
+        				return View("Index");
+        			}
 
-					// Debug: Exibir o texto extraído
-					ViewBag.ExtractedText = extractedText;
+        			// Debug: Exibir o texto extraído
+        			ViewBag.ExtractedText = extractedText;
 
-					// Identificar o tipo de comprovante
-					string comprovanteTipo = IdentificarTipoComprovante(extractedText);
+        			// Identificar o tipo de comprovante
+        			string comprovanteTipo = IdentificarTipoComprovante(extractedText);
 
-					// Encontrar valores monetários
-					string monetaryValues = FindMonetaryValues(extractedText);
+             		// Encontrar valores monetários
+        			string monetaryValues = FindMonetaryValues(extractedText);
 
-					// Encontrar o nome do banco
-					string bankName = FindBankName(extractedText);
+        			// Encontrar o nome do banco
+        			string bankName = FindBankName(extractedText);
 
-					// Encontrar o nome do pagador
-					string payerName = FindPayerName(extractedText);
+        			// Encontrar o nome do pagador
+        			string payerName = FindPayerName(extractedText);
 
-					// Encontrar o nome do destinatário
-					string recipientName = FindRecipientName(extractedText);
+        			// Encontrar o nome do destinatário
+        			string recipientName = FindRecipientName(extractedText);
 
-					// Encontrar o ID da transação
-					string transactionId = FindTransactionId(extractedText);
+        			// Encontrar o ID da transação
+        			string transactionId = FindTransactionId(extractedText);
 
+                    // Criar um novo objeto Comprovante
+                    var comprovante = new Comprovante
+                    {
+                        Valor = monetaryValues,
+                        NomeRemetente = payerName,
+                        NomeBanco = bankName,
+                        TipoComprovante = comprovanteTipo,
+                        DataCadastro = DateTime.Now,
+                        UserId = _userManager.GetUserId(User) // Obtendo o UserId do usuário logado
+                    };
 
+                    // Adicionar ao contexto e salvar
+                    _context.Comprovantes.Add(comprovante);
+                    _context.SaveChanges();
 
-					ViewBag.Result = $"Informações encontradas:\nTipo de Comprovante: {comprovanteTipo} \nBanco: {bankName} \nNome do Pagador: {payerName} \nNome do Destinatário: {recipientName} \nValores Monetários: {monetaryValues} \nID de transação: {transactionId}";
-				}
-				catch (Exception e)
-				{
-					ViewBag.Result = "Erro ao processar o arquivo: " + e.Message;
-				}
-				finally
-				{
-					// Certifique-se de que o arquivo é excluído após o processamento
-					if (filePath != null && System.IO.File.Exists(filePath))
-					{
-						System.IO.File.Delete(filePath);
-					}
-				}
-			}
-			else
-			{
-				ViewBag.Result = "Nenhum arquivo selecionado.";
-			}
-
-			return View("Index");
-		}
+                    ViewBag.Result = "Comprovante cadastrado com sucesso!";
 
 
-		//[HttpPost]
-		//public IActionResult Upload(IFormFile file)
-		//{
-		//	if (file != null && file.Length > 0)
-		//	{
-		//		try
-		//		{
-		//			// Diretório de uploads
-		//			string uploadsDir = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
-		//			string filePath = Path.Combine(uploadsDir, file.FileName);
 
-		//			// Criação do diretório se não existir
-		//			if (!Directory.Exists(uploadsDir))
-		//			{
-		//				Directory.CreateDirectory(uploadsDir);
-		//			}
+                    ViewBag.Result = $"Informações encontradas:\nTipo de Comprovante: {comprovanteTipo} \nBanco: {bankName} \nNome do Pagador: {payerName} \nNome do Destinatário: {recipientName} \nValores Monetários: {monetaryValues} \nID de transação: {transactionId}";
+        		}
+        		catch (Exception e)
+        		{
+        			ViewBag.Result = "Erro ao processar o arquivo: " + e.Message;
+        		}
+        		finally
+        		{
+        			// Certifique-se de que o arquivo é excluído após o processamento
+        			if (filePath != null && System.IO.File.Exists(filePath))
+        			{
+        				System.IO.File.Delete(filePath);
+        		}
+        		}
+        	}
+        	else
+        	{
+        		ViewBag.Result = "Nenhum arquivo selecionado.";
+        	}
 
-		//			// Salvar o arquivo no diretório de uploads
-		//			using (var stream = new FileStream(filePath, FileMode.Create))
-		//			{
-		//				file.CopyTo(stream);
-		//			}
+        	return View("Index");
+        }
 
-		//			// Extrair texto do arquivo conforme o tipo
-		//			string extractedText = ExtractTextFromImage(filePath);
 
-		//			string fileExtension = Path.GetExtension(filePath).ToLower();
-		//			if (fileExtension == ".pdf")
-		//			{
-		//				extractedText = ExtractTextFromPdf(filePath);
-		//			}
-		//			else if (fileExtension == ".jpg" || fileExtension == ".png")
-		//			{
-		//				extractedText = ExtractTextFromImage(filePath);
-		//			}
-		//			else
-		//			{
-		//				ViewBag.Result = "Tipo de arquivo não suportado.";
-		//				return View("Index");
-		//			}
+       
 
-		//			// Debug: Exibir o texto extraído
-		//			ViewBag.ExtractedText = extractedText;
-
-		//			// Identificar o tipo de comprovante
-		//			string comprovanteTipo = IdentificarTipoComprovante(extractedText);
-
-		//			// Encontrar valores monetários
-		//			string monetaryValues = FindMonetaryValues(extractedText);
-
-		//			// Encontrar o nome do banco
-		//			string bankName = FindBankName(extractedText);
-
-		//			// Encontrar o nome do pagador
-		//			string payerName = FindPayerName(extractedText);
-
-		//			// Encontrar o nome do destinatário
-		//			string recipientName = FindRecipientName(extractedText);
-
-		//			// Encontrar o ID da transação
-		//			string transactionId = FindTransactionId(extractedText);
-
-		//			ViewBag.Result = $"Informações encontradas:\nTipo de Comprovante: {comprovanteTipo} \nBanco: {bankName} \nNome do Pagador: {payerName} \nNome do Destinatário: {recipientName} \nValores Monetários: {monetaryValues} \nID de transação: {transactionId}";
-		//		}
-		//		catch (Exception e)
-		//		{
-		//			ViewBag.Result = "Erro ao processar o arquivo: " + e.Message;
-		//		}
-		//	}
-		//	else
-		//	{
-		//		ViewBag.Result = "Nenhum arquivo selecionado.";
-		//	}
-
-		//	return View("Index");
-		//}
+                    
+                
 
 
 
 
-		//Nome do pagador
-		private string FindPayerName(string text)
+
+
+
+        //Nome do pagador
+        private string FindPayerName(string text)
 		{
 			if (string.IsNullOrEmpty(text))
 			{

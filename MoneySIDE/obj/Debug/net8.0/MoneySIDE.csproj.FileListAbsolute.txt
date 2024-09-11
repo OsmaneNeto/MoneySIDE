@@ -5295,3 +5295,9 @@ C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win-x64\nati
 C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win-x86\native\Magick.Native-Q16-x86.dll
 C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\OpenCvSharp.dll
+C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ProgramData\Osmane\MoneySIDE\MoneySIDE\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

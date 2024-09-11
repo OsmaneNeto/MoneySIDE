@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MoneySIDE.Models.Comprovante> // Ajuste o namespace conforme necessário
+
+@{
+    ViewBag.Title = "Transações Financeiras";
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/datatables.css">
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table id="idTable_d01" class="display">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Valor</th>
+                        <th>Nome do Remetente</th>
+                        <th>Nome do Banco</th>
+                        <th>Tipo de Comprovante</th>
+                        <th>Data de Cadastro</th>
+                        <th>User ID</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                 
+
+                    @foreach (var comprovante in Model)
+                    {
+                        <tr>
+                            <td>@comprovante.Id</td>
+                            <td>@comprovante.Valor</td>
+                            <td>@comprovante.NomeRemetente</td>
+                            <td>@comprovante.NomeBanco</td>
+                            <td>@comprovante.TipoComprovante</td>
+                            <td>@comprovante.DataCadastro.ToString("g")</td>
+                            <td>@comprovante.UserId</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </form>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="~/js/datatables.js"></script>
+    <script>
+        let Table = new DataTable('#idTable_d01', {})
+    </script>,
+
+</body>
+</html>
+
+

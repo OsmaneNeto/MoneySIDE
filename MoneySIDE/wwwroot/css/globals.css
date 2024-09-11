@@ -1,0 +1,150 @@
+﻿/* Define a cor de fundo global */
+body {
+    background-color: #332f37;
+    color: white; /* Texto branco para contraste */
+}
+
+
+/* Define a cor de fundo para todos os elementos, exceto a tabela */
+.container *:not(table):not(th):not(td):not(.transaction-table) {
+    background-color: #332f37;
+    overflow-x: unset;
+}
+
+.bg-gray-200 {
+    border-radius 5%;
+    border: 2px solid black;
+ 
+}
+.table-bordered-rows tr {
+    border-bottom: 2px solid black; /* Adiciona uma borda preta ao fundo de cada linha */
+}
+
+.table-bordered-rows th, .table-bordered-rows td {
+    border: none; /* Remove qualquer borda padrão das células */
+}
+
+
+.px-6 py-4 text-right {
+    
+    border: 2px solid black;
+    border-radius 5%;
+}
+
+/* Mantém a tabela com a estilização desejada */
+.transaction-table {
+    background-color: white; /* Mantém a cor branca na tabela */
+    color: black; /* Texto preto para a tabela */
+}
+
+/* Assegura que o modal e outros elementos específicos mantenham a cor */
+.dialog-content {
+    background-color: white;
+    color: black;
+}
+
+/* Outros ajustes de cor para elementos específicos, se necessário */
+button {
+    background-color: #332f37; /* Botões com a cor personalizada */
+    color: white;
+}
+
+button:hover {
+    background-color: #2c2732; /* Sutil escurecimento no hover */
+}
+.dialog {
+    display: none;
+}
+
+.dialog-show {
+    display: block;
+}
+table.w-full {
+    width: 100%; /* Occupy full width of the container */
+}
+
+/* Ensure each cell takes its space */
+th, td {
+    padding: 15px; /* Adjust padding as needed */
+    text-align: left;
+}
+
+/* Ensure the container of the table expands */
+.container {
+    max-width: 100%; /* Allow container to use full available width */
+    padding: 0; /* Remove padding to eliminate white spaces */
+    margin: 0 auto; /* Center the content */
+}
+
+
+.custom-date-input {
+    position: relative;
+    display: inline-block;
+}
+
+    .custom-date-input input[type="date"] {
+        padding-left: 2.5rem; /* Espaço para o ícone */
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+
+    .custom-date-input::before {
+        content: '\f073'; /* Código Unicode do ícone de calendário */
+        font-family: 'Font Awesome 5 Free'; /* Usando Font Awesome */
+        position: absolute;
+        left: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #007bff; /* Cor do ícone */
+        pointer-events: none;
+    }
+
+/* Estilo para o conteúdo da caixa de diálogo de edição */
+.dialog-content {
+    border: 2px solid white; /* Adiciona uma borda branca ao redor */
+    background-color: black; /* Define o fundo preto */
+    color: white; /* Define o texto branco para contraste */
+    border-radius: 5%; /* Mantém os cantos arredondados */
+    padding: 10px; /* Adiciona um padding interno */
+    width: 50%; /* Define a largura do diálogo como 50% da largura da tela */
+    max-width: 600px; /* Define uma largura máxima para o diálogo */
+    height: auto; /* Permite que a altura se ajuste automaticamente ao conteúdo */
+    max-height: 80vh; /* Define uma altura máxima de 80% da altura da tela */
+    overflow-y: auto; /* Adiciona rolagem vertical se o conteúdo exceder a altura máxima */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura e altura */
+    margin: auto; /* Centraliza horizontalmente o diálogo */
+}
+
+
+    /* Estilo para os campos de entrada (inputs) dentro da caixa de diálogo */
+    .dialog-content input,
+    .dialog-content label,
+    .dialog-content button {
+        background-color: black; /* Define o fundo preto */
+        color: white; /* Define o texto branco */
+        border: 1px solid white; /* Define uma borda branca nos inputs */
+        padding: 8px; /* Adiciona um padding interno */
+        border-radius: 5px; /* Cantos arredondados para os campos */
+    }
+
+    /* Estilo para os botões dentro da caixa de diálogo */
+    .dialog-content button {
+        background-color: #332f37; /* Cor de fundo para os botões */
+        color: white; /* Texto branco */
+        
+        padding: 6px 12px; /* Diminuir o padding para reduzir o tamanho */
+        font-size: 14px; /* Diminuir o tamanho da fonte */
+        border-radius: 4px; /* Ajusta o arredondamento dos cantos */
+        width: auto; /* Permite que o botão ajuste a largura conforme o conteúdo */
+    }
+
+flex flex-col items-center justify-center gap-4 py-8 {
+    border: 2px solid white;
+}
+
+.dialog-content button:hover {
+    background-color: #2c2732; /* Sutil escurecimento no hover */
+}
+editDialog {
+    border: 2px solid white;
+}
