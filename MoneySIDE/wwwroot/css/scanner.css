@@ -1,0 +1,50 @@
+﻿
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo cinza claro para a tela */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh; /* Garante que o corpo ocupa pelo menos a altura da tela */
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Cor de fundo branca para o container da tabela e formulário */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+    form div {
+        margin-bottom: 10px;
+    }
+
+input[type="file"] {
+    display: block;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }

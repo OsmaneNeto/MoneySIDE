@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\css\\datatables.min.css"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\estiloLeanding.css",
+      "PackagePath": "staticwebassets\\css\\estiloLeanding.css"
+    },
+    {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\globals.css",
       "PackagePath": "staticwebassets\\css\\globals.css"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\layout.css",
       "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\scanner.css",
+      "PackagePath": "staticwebassets\\css\\scanner.css"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\site.css",
@@ -33,12 +41,52 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MONEYSIDE (1).png",
+      "PackagePath": "staticwebassets\\img\\MONEYSIDE (1).png"
+    },
+    {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MoneySideLogoComFundo2.png",
       "PackagePath": "staticwebassets\\img\\MoneySideLogoComFundo2.png"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MoneySideLogoSemFundo.png",
       "PackagePath": "staticwebassets\\img\\MoneySideLogoSemFundo.png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (1).png",
+      "PackagePath": "staticwebassets\\img\\imagem (1).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (2).png",
+      "PackagePath": "staticwebassets\\img\\imagem (2).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (3).png",
+      "PackagePath": "staticwebassets\\img\\imagem (3).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (4).png",
+      "PackagePath": "staticwebassets\\img\\imagem (4).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (5).png",
+      "PackagePath": "staticwebassets\\img\\imagem (5).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (6).png",
+      "PackagePath": "staticwebassets\\img\\imagem (6).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (7).png",
+      "PackagePath": "staticwebassets\\img\\imagem (7).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (8).png",
+      "PackagePath": "staticwebassets\\img\\imagem (8).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (9).png",
+      "PackagePath": "staticwebassets\\img\\imagem (9).png"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\js\\datatables.js",

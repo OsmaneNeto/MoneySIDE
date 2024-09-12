@@ -1,0 +1,715 @@
+﻿/* Custom CSS for the landing page */
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #332f37; /* Cor personalizada conforme suas preferências */
+    background-color: #f4f4f9;
+}
+
+/* Masthead */
+.masthead {
+    background-image: url('assets/header-bg.jpg'); /* Coloque uma imagem no background */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+.masthead-subheading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.masthead-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Customize button */
+.masthead .btn-primary {
+    background-color: #3f0071; /* Botão na cor roxa conforme suas preferências */
+    border-color: #3f0071;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+}
+
+    .masthead .btn-primary:hover {
+        background-color: #29004a;
+        border-color: #29004a;
+    }
+
+
+/* Services Section */
+#services {
+    padding: 100px 0;
+    background-color: #f4f4f9; /* Fundo claro para contraste com a seção anterior */
+}
+
+    #services .section-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #332f37; /* Cor do título */
+        margin-bottom: 20px;
+    }
+
+    #services .section-subheading {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 50px;
+    }
+
+    #services .fa-stack {
+        margin-bottom: 20px;
+    }
+
+    #services .fa-circle {
+        color: #3f0071; /* Cor roxa para o ícone de fundo */
+    }
+
+    #services h4 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+        color: #332f37; /* Cor do título do serviço */
+    }
+
+    #services p {
+        font-size: 1rem;
+        color: #6c757d;
+    }
+
+/* Portfolio Section */
+#portfolio {
+    padding: 100px 0;
+    background-color: #ffffff; /* Fundo branco para portfólio */
+}
+
+    #portfolio .section-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #332f37;
+        margin-bottom: 20px;
+    }
+
+    #portfolio .section-subheading {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 50px;
+    }
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.portfolio-link {
+    display: block;
+    position: relative;
+}
+
+.portfolio-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 0, 113, 0.85); /* Fundo com opacidade no hover */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+}
+
+.portfolio-hover-content {
+    color: #fff;
+}
+
+.portfolio-caption {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #332f37;
+}
+
+.portfolio-caption-subheading {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    #services .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    #portfolio .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Portfolio Section (com os novos itens) */
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px; /* Espaçamento uniforme entre os itens */
+}
+
+.portfolio-link {
+    display: block;
+    position: relative;
+}
+
+.portfolio-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 0, 113, 0.85); /* Fundo roxo translúcido no hover */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-link:hover .portfolio-hover {
+    opacity: 1; /* Efeito hover */
+}
+
+.portfolio-hover-content {
+    color: #fff;
+}
+
+.portfolio-caption {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #332f37;
+}
+
+.portfolio-caption-subheading {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Media Queries para garantir a responsividade */
+@media (max-width: 768px) {
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-hover-content {
+        font-size: 2rem; /* Ajuste do tamanho do ícone em telas menores */
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-hover-content {
+        font-size: 1.5rem; /* Ajuste adicional para telas ainda menores */
+    }
+}
+
+
+/* About Section */
+#about {
+    padding: 100px 0;
+    background-color: #f4f4f9;
+}
+
+    #about .section-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #332f37;
+        margin-bottom: 20px;
+    }
+
+    #about .section-subheading {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 50px;
+    }
+
+.timeline {
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+    .timeline:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background-color: #3f0071;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        position: relative;
+        margin-bottom: 50px;
+        min-height: 150px;
+    }
+
+        .timeline > li .timeline-panel {
+            position: relative;
+            width: 50%;
+            float: left;
+            padding: 0 20px;
+            text-align: left;
+        }
+
+        .timeline > li.timeline-inverted .timeline-panel {
+            float: right;
+            text-align: right;
+        }
+
+        .timeline > li .timeline-image {
+            position: absolute;
+            z-index: 100;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin-left: -75px;
+            background-color: #f4f4f9;
+            border: 7px solid #3f0071;
+            border-radius: 50%;
+            text-align: center;
+            padding: 10px;
+        }
+
+            .timeline > li .timeline-image img {
+                width: 100%;
+                border-radius: 50%;
+            }
+
+        .timeline > li.timeline-inverted .timeline-image {
+            left: 50%;
+        }
+
+        .timeline > li .timeline-heading h4 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            color: #332f37;
+        }
+
+            .timeline > li .timeline-heading h4.subheading {
+                font-size: 1.2rem;
+                color: #6c757d;
+            }
+
+        .timeline > li .timeline-body p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .timeline > li:last-child .timeline-image h4 {
+            font-size: 1.5rem;
+            color: #ffffff;
+            background-color: #3f0071;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+/* Team Section */
+#team {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+    #team .section-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #332f37;
+        margin-bottom: 20px;
+    }
+
+    #team .section-subheading {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 50px;
+    }
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .team-member img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .team-member h4 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+        color: #332f37;
+    }
+
+    .team-member p {
+        font-size: 1rem;
+        color: #6c757d;
+    }
+
+.btn-social {
+    color: #fff;
+    background-color: #3f0071;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.large.text-muted {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .timeline > li .timeline-panel {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .timeline > li.timeline-inverted .timeline-panel {
+        float: none;
+    }
+
+    .timeline:before {
+        left: 0;
+    }
+
+    .timeline > li .timeline-image {
+        left: calc(50% - 75px);
+    }
+}
+
+
+/* Clients Section */
+.py-5 {
+    padding: 3rem 0;
+    background-color: #f4f4f9;
+}
+
+.img-brand {
+    max-width: 150px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+    .img-brand:hover {
+        opacity: 1;
+    }
+
+.py-5 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Us Section */
+#contact {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+    #contact .section-heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #332f37;
+        margin-bottom: 20px;
+    }
+
+    #contact .section-subheading {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 50px;
+    }
+
+#contactForm .form-control {
+    border: 1px solid #ced4da;
+    padding: 15px;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+}
+
+    #contactForm .form-control:focus {
+        border-color: #3f0071;
+        box-shadow: 0 0 0 0.2rem rgba(63, 0, 113, 0.25);
+    }
+
+#contactForm .form-group-textarea textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+#contactForm .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875rem;
+}
+
+#contactForm .text-center {
+    margin-top: 20px;
+}
+
+#contactForm .btn-primary {
+    background-color: #3f0071;
+    border-color: #3f0071;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+    #contactForm .btn-primary:hover {
+        background-color: #29004d;
+        border-color: #29004d;
+    }
+
+#submitSuccessMessage, #submitErrorMessage {
+    font-size: 1rem;
+}
+
+    #submitSuccessMessage .fw-bolder {
+        font-size: 1.2rem;
+    }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .img-brand {
+        max-width: 120px;
+    }
+
+    #contactForm .form-control {
+        font-size: 0.9rem;
+    }
+
+    #contactForm .btn-primary {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Footer */
+.footer {
+    background-color: #332f37;
+    color: #ffffff;
+}
+
+    .footer .text-lg-start,
+    .footer .text-lg-end {
+        font-size: 1rem;
+    }
+
+    .footer a {
+        color: #ffffff;
+        transition: color 0.3s ease;
+    }
+
+        .footer a:hover {
+            color: #3f0071;
+        }
+
+    .footer .btn-social {
+        background-color: #3f0071;
+        border-radius: 50%;
+        color: #ffffff;
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s ease;
+    }
+
+        .footer .btn-social:hover {
+            background-color: #29004d;
+        }
+
+/* Portfolio Modals */
+.portfolio-modal .modal-content {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.portfolio-modal .close-modal img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.portfolio-modal .modal-body {
+    padding: 3rem;
+}
+
+.portfolio-modal h2 {
+    font-size: 2rem;
+    color: #3f0071;
+    font-weight: 700;
+}
+
+.portfolio-modal .item-intro {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.portfolio-modal .list-inline li {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.portfolio-modal .btn-primary {
+    background-color: #3f0071;
+    border-color: #3f0071;
+    color: #ffffff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+    .portfolio-modal .btn-primary:hover {
+        background-color: #29004d;
+        border-color: #29004d;
+    }
+
+.portfolio-modal img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer .text-lg-start,
+    .footer .text-lg-end {
+        text-align: center;
+    }
+
+    .portfolio-modal .modal-body {
+        padding: 2rem;
+    }
+
+    .portfolio-modal h2 {
+        font-size: 1.75rem;
+    }
+
+    .portfolio-modal .item-intro {
+        font-size: 1.1rem;
+    }
+}
+/* Portfolio Modal 6 */
+#portfolioModal6 .modal-content {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#portfolioModal6 .close-modal img {
+    width: 40px;
+    cursor: pointer;
+}
+
+#portfolioModal6 .modal-body {
+    padding: 3rem;
+}
+
+#portfolioModal6 h2 {
+    font-size: 2rem;
+    color: #3f0071;
+    font-weight: 700;
+}
+
+#portfolioModal6 .item-intro {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+#portfolioModal6 img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+#portfolioModal6 p {
+    font-size: 1rem;
+    color: #495057;
+    line-height: 1.5;
+}
+
+#portfolioModal6 .list-inline {
+    margin-top: 1rem;
+}
+
+    #portfolioModal6 .list-inline li {
+        font-size: 1rem;
+        color: #495057;
+    }
+
+#portfolioModal6 .btn-primary {
+    background-color: #3f0071;
+    border-color: #3f0071;
+    color: #ffffff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+    #portfolioModal6 .btn-primary:hover {
+        background-color: #29004d;
+        border-color: #29004d;
+    }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #portfolioModal6 .modal-body {
+        padding: 2rem;
+    }
+
+    #portfolioModal6 h2 {
+        font-size: 1.75rem;
+    }
+
+    #portfolioModal6 .item-intro {
+        font-size: 1.1rem;
+    }
+}
