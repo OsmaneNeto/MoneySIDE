@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\img\\imagem (9).png"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\lixeira.png",
+      "PackagePath": "staticwebassets\\img\\lixeira.png"
+    },
+    {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\js\\datatables.js",
       "PackagePath": "staticwebassets\\js\\datatables.js"
     },

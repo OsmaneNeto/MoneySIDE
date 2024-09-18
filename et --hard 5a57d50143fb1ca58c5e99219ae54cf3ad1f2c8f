@@ -1,0 +1,79 @@
+[33mcommit 5a57d50143fb1ca58c5e99219ae54cf3ad1f2c8f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Wed Sep 11 21:45:15 2024 -0300
+
+    LeandingPage atualizada,  Página de Scanner atualizada
+
+[33mcommit d11e0589cd2f19fd817cbf16462dbf597959c667[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Sep 10 21:24:00 2024 -0300
+
+    Cadastrando os valores no banco e mostrando na tabela registros
+
+[33mcommit a044ce28b53666575c85cfbe232b6e10d6b25f0f[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Fri Aug 30 22:02:43 2024 -0300
+
+    Obtendo valor do jpg
+
+[33mcommit f2b16b05cdf37e372dbea72b4925a35ff8bd0f51[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 27 21:45:09 2024 -0300
+
+    Obtendo valor do jpg
+
+[33mcommit 9fddb2c2851d676437f19338f0c290c7959cd781[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 27 21:42:49 2024 -0300
+
+    Obtendo valor do jpg
+
+[33mcommit 397cd814a91136fb34774a8d0c1d2c2691720fd5[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 27 21:38:58 2024 -0300
+
+    Obtendo valor do jpg
+
+[33mcommit 7fb8b467d6e545d37765568babd6de0c88fb5cd4[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 27 21:31:51 2024 -0300
+
+    Obtendo valor do jpg
+
+[33mcommit db9ad0b2194c4e5d7ae14816d39847469a737c0b[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 27 21:28:29 2024 -0300
+
+    Obtendo valor do jpg
+
+[33mcommit 7f9d64f5c8e01091a0f8b3d9ddffaf29a392dc48[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Thu Aug 22 21:54:29 2024 -0300
+
+    Implemmentações
+
+[33mcommit ea022603a7c128434bcd714ed23315f6afe3e2cd[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Fri Aug 16 21:51:31 2024 -0300
+
+    Login, Cadastro, Confirmação de email, entre outros... Concluido
+
+[33mcommit e4c01b05cc2aa6836a24931447fd0f850b704d3b[m[33m ([m[1;31mupstream/main[m[33m)[m
+Merge: e1e44d5 29e8bfe
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 13 21:21:59 2024 -0300
+
+    Merge branch 'main' of https://github.com/OsmaneNeto/MoneySIDE
+    commit merge
+
+[33mcommit e1e44d5f90cad7b516fab0925c65958768045208[m[33m ([m[1;31mupstream/master[m[33m)[m
+Author: SENAI Zerbini <osmane.neto@hotmail.com>
+Date:   Tue Aug 13 21:09:53 2024 -0300
+
+    13/08/2024 testes iniciais
+
+[33mcommit 29e8bfeacae0ac2fe6db1c77ede0199bf7e5f6e2[m
+Author: Osmane Barbosa Neto <135390417+OsmaneNeto@users.noreply.github.com>
+Date:   Tue Aug 13 19:53:13 2024 -0300
+
+    Initial commit

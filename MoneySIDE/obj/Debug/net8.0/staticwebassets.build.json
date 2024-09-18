@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uOPZ48OB/cphC1ooCNpj86VJy1vw3JbFlcafDQcodh0=",
+  "Hash": "IRlSRAGmNdcYPRuY17T1HbS+hks1xWbQNKtyjNF/WT8=",
   "Source": "MoneySIDE",
   "BasePath": "_content/MoneySIDE",
   "Mode": "Default",
@@ -395,6 +395,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\imagem (9).png"
+    },
+    {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\lixeira.png",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "img/lixeira.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\lixeira.png"
     },
     {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MONEYSIDE (1).png",
