@@ -36,6 +36,11 @@
                                 <button type="button" class="btn btn-danger delete-btn" data-id="@comprovante.Id">
                                     <i class="bi bi-trash"></i> 
                                 </button>
+
+                                <button type="button" class="btn btn-success">
+                                    <i class="bi bi-search"></i>
+                                </button>
+
                             </td>
                         </tr>
                     }
@@ -93,7 +98,7 @@
             // Carregar dados no modal para edição
             $('.edit-btn').on('click', function () {
                 const id = $(this).data('id');
-                console.log(id);
+                
 
                 $.get(`/Comprovante/GetById/${id}`, function (data) {
                     $('#comprovanteId').val(data.id);
@@ -105,14 +110,23 @@
                 });
             });
 
-                
+
+            $('.btn-secondary').on('click', function () {
+                $('#editModal').modal('hide');
+            });
+
+            
+
+            $('.close').on('click', function () {
+                $('#editModal').modal('hide');
+            });
 
             // Enviar dados editados para o servidor
             $('#editForm').on('submit', function (e) {
                 e.preventDefault(); // Evitar envio padrão do formulário
                 const id = $(this).data('id');
                 const formData = $(this).serialize();
-                console.log(id);
+                
                 $.ajax({
                     url: `/Comprovante/Update`,
                     type: 'POST',
@@ -132,7 +146,7 @@
             // Confirmar e deletar comprovante
             $('.delete-btn').on('click', function () {
                 const id = $(this).data('id');
-                console.log(id);
+                
                 if (confirm('Você tem certeza que deseja deletar este comprovante?')) {
                     $.ajax({
                         url: `/Comprovante/Delete/${id}`,
