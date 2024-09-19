@@ -9,5 +9,7 @@
         public string TipoComprovante { get; set; }
         public DateTime? DataCadastro { get; set; }
         public string? UserId { get; set; }
+
+        public string? Imagem { get; set; }
     }
 }

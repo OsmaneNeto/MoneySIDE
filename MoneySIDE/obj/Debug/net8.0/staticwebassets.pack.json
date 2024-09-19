@@ -337,6 +337,46 @@
       "PackagePath": "staticwebassets\\tessdata\\eng.traineddata"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\06650509-da5b-4aa8-a801-9f21300d2ef6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\06650509-da5b-4aa8-a801-9f21300d2ef6.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4aafcffa-c8af-4274-a34f-d6fdcb356cbd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4aafcffa-c8af-4274-a34f-d6fdcb356cbd.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4b699479-f3e5-4684-ba5f-fd06f0ece86c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4b699479-f3e5-4684-ba5f-fd06f0ece86c.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4e08b9fd-eeb9-434e-bf15-e2b264953389.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4e08b9fd-eeb9-434e-bf15-e2b264953389.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg",
+      "PackagePath": "staticwebassets\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoneySIDE.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

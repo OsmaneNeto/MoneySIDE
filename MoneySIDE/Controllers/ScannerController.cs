@@ -47,31 +47,41 @@ namespace MoneySIDE.Controllers
         [HttpPost]
         public IActionResult Upload(IFormFile file)
         {
-        	if (file != null && file.Length > 0)
-        	{
-        		string filePath = null;
-        		try
-        		{
-        			// Diretório de uploads
-        			string uploadsDir = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
-        			filePath = Path.Combine(uploadsDir, file.FileName);
+            if (file != null && file.Length > 0)
+            {
+                string filePath = null;
+                string imagePath = null;
 
-        			// Criação do diretório se não existir
-        			if (!Directory.Exists(uploadsDir))
-        			{
-        				Directory.CreateDirectory(uploadsDir);
-        			}
+                try
+                {
+                    // Diretório de uploads
+                    string uploadsDir = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
+                    filePath = Path.Combine(uploadsDir, file.FileName);
 
-        			// Salvar o arquivo no diretório de uploads
-        			using (var stream = new FileStream(filePath, FileMode.Create))
-        			{
-        				file.CopyTo(stream);
-        			}
+                    // Criação do diretório se não existir
+                    if (!Directory.Exists(uploadsDir))
+                    {
+                        Directory.CreateDirectory(uploadsDir);
+                    }
 
-					// Extrair texto do arquivo conforme o tipo
-        			string extractedText = ExtractTextFromImage(filePath);
+                    // Salvar o arquivo no diretório de uploads
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                    }
 
-        			string fileExtension = Path.GetExtension(filePath).ToLower();
+                    // Renomear o arquivo de imagem usando o arquivo recebido
+                    string imageFileName = Guid.NewGuid() + Path.GetExtension(file.FileName); // Renomear a imagem
+                    imagePath = Path.Combine(uploadsDir, imageFileName);
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                    }
+
+                    // Extrair texto do arquivo conforme o tipo
+                    string extractedText = ExtractTextFromImage(filePath);
+
+                    string fileExtension = Path.GetExtension(filePath).ToLower();
         			if (fileExtension == ".pdf")
         			{
         				extractedText = ExtractTextFromPdf(filePath);
@@ -115,7 +125,8 @@ namespace MoneySIDE.Controllers
                         NomeBanco = bankName,
                         TipoComprovante = comprovanteTipo,
                         DataCadastro = DateTime.Now,
-                        UserId = _userManager.GetUserId(User) // Obtendo o UserId do usuário logado
+                        UserId = _userManager.GetUserId(User),
+                        Imagem = imageFileName 
                     };
 
                     // Adicionar ao contexto e salvar

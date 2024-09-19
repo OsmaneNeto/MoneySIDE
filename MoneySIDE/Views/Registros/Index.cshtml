@@ -17,7 +17,7 @@
                         <th>Nome do Banco</th>
                         <th>Tipo de Comprovante</th>
                         <th>Data de Cadastro</th>
-                        <th>Ações</th> <!-- Coluna para ações -->
+                        <th>Ações</th> 
                     </tr>
                 </thead>
                 <tbody>
@@ -37,9 +37,11 @@
                                     <i class="bi bi-trash"></i> 
                                 </button>
 
-                                <button type="button" class="btn btn-success">
+                                <button type="button" class="btn btn-success view-image-btn" data-id="@comprovante.Id">
                                     <i class="bi bi-search"></i>
                                 </button>
+
+
 
                             </td>
                         </tr>
@@ -47,6 +49,29 @@
                 </tbody>
             </table>
         </div>
+
+        <!-- Modal para visualizar a imagem -->
+        <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">Imagem do Comprovante</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="comprovanteImage" src="" alt="Comprovante" class="img-fluid" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </form>
 
     <!-- Modal para edição -->
@@ -80,6 +105,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
+                        
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                         <button type="submit" class="btn btn-primary">Salvar</button>
                     </div>
@@ -106,20 +132,88 @@
                     $('#nomeRemetente').val(data.nomeRemetente);
                     $('#nomeBanco').val(data.nomeBanco);
                     $('#tipoComprovante').val(data.tipoComprovante);
+                    $('comprovanteImage').val(data.imageUrl);
                     $('#editModal').modal('show');
                 });
             });
+            //fechar modal da edição
 
 
             $('.btn-secondary').on('click', function () {
                 $('#editModal').modal('hide');
+                $('#imageModal').modal('hide');
             });
-
-            
 
             $('.close').on('click', function () {
                 $('#editModal').modal('hide');
+                $('#imageModal').modal('hide');
             });
+
+
+
+
+
+            // // Visualizar a imagem do comprovante
+            // $('.view-btn').on('click', function () {
+            //     const id = $(this).data('id'); // Obter o ID do botão clicado
+
+            //     $.get(`/Comprovante/GetImage/${id}`, function (data) {
+            //         $('#comprovanteImage').attr('src', data.imageUrl); // Define a URL da imagem
+            //         $('#imageModal').modal('show'); // Abre o modal
+            //     }).fail(function () {
+            //         alert('Erro ao carregar a imagem do comprovante.'); // Mensagem de erro
+            //     });
+            // });
+
+
+            // Função para visualizar a imagem do comprovante
+            function viewImage(id) {
+                $.get(`/Comprovante/GetImage/${id}`, function (data) {
+                    $('#comprovanteImage').attr('src', data.imageUrl); // Define a URL da imagem
+                    $('#imageModal').modal('show'); // Abre o modal
+                }).fail(function () {
+                    alert('Erro ao carregar a imagem do comprovante.'); // Mensagem de erro
+                });
+            }
+
+            // Evento para o botão de visualização na tabela
+            $('.view-btn').on('click', function () {
+                const id = $(this).data('id');
+                viewImage(id);
+            });
+
+            // Evento para o botão de visualização na edição
+            $(document).on('click', '.view-image-btn', function () {
+                const id = $(this).data('id');
+                viewImage(id);
+            });
+
+            // Carregar dados no modal para edição
+    $('.edit-btn').on('click', function () {
+        const id = $(this).data('id');
+        
+        $.get(`/Comprovante/GetById/${id}`, function (data) {
+            $('#comprovanteId').val(data.id);
+            $('#valor').val(data.valor);
+            $('#nomeRemetente').val(data.nomeRemetente);
+            $('#nomeBanco').val(data.nomeBanco);
+            $('#tipoComprovante').val(data.tipoComprovante);
+            $('#editModal').modal('show');
+        });
+    });
+
+            // Formatar valor ao digitar
+            $('#valor').on('input', function () {
+                let value = $(this).val();
+                // Remove caracteres não numéricos
+                value = value.replace(/[^0-9]/g, '');
+                if (value) {
+                    // Converte para número e formata com vírgula e duas casas decimais
+                    value = (parseFloat(value) / 100).toFixed(2).replace('.', ',');
+                    $(this).val(value);
+                }
+            });
+
 
             // Enviar dados editados para o servidor
             $('#editForm').on('submit', function (e) {

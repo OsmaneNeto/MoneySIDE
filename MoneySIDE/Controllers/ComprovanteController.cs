@@ -85,4 +85,17 @@ public class ComprovanteController : Controller
         }
         return NotFound();
     }
+
+    //
+    public IActionResult GetImage(int id)
+    {
+        var comprovante = _context.Comprovantes.Find(id);
+        if (comprovante != null)
+        {
+            string imageUrl = Url.Content("~/uploads/" + comprovante.Imagem); // Ajuste o caminho conforme necessário
+            return Json(new { imageUrl });
+        }
+        return NotFound();
+    }
+
 }
