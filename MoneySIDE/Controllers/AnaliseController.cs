@@ -39,12 +39,23 @@ public class AnaliseController : Controller
                 {
                     Remetente = c.NomeRemetente,
                     Destinatario = c.NomeDestinatario,
-                    Data = (DateTime)c.DataCadastro, // Armazena a data
+                    Data = (DateTime)c.DataCadastro,
                     Valor = valorDecimal
                 };
             }).ToList();
 
             ViewBag.Analises = analises;
+
+            // Criar dados para o novo gráfico
+            var valoresPorData = analises
+                .GroupBy(a => a.Data.Date)
+                .Select(g => new
+                {
+                    Data = g.Key,
+                    SomaValores = g.Sum(a => a.Valor)
+                }).ToList();
+
+            ViewBag.ValoresPorData = valoresPorData;
         }
 
         ViewBag.FilePath = filePath;

@@ -401,6 +401,10 @@
       "PackagePath": "staticwebassets\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoneySIDE.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

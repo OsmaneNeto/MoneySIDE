@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j37IzT/a4HD1ctLtk0mA0U6fzykpI5jvUli2NUQJADI=",
+  "Hash": "Wmy4FHeLeAj0n0Sm+DfI8HY9wdVX/DTElNCiQ6+OdJw=",
   "Source": "MoneySIDE",
   "BasePath": "_content/MoneySIDE",
   "Mode": "Default",
@@ -1934,6 +1934,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg"
+    },
+    {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/fe5b750e-366f-4bb3-b646-62313a6207fc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg"
     },
     {
       "Identity": "C:\\Users\\aluno\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.8\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
