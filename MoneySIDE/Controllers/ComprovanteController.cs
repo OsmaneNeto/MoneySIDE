@@ -55,6 +55,7 @@ public class ComprovanteController : Controller
                 // Atualizar os campos necessários
                 comprovante.Valor = model.Valor;
                 comprovante.NomeRemetente = model.NomeRemetente;
+                comprovante.NomeDestinatario = model.NomeDestinatario;
                 comprovante.NomeBanco = model.NomeBanco;
                 comprovante.TipoComprovante = model.TipoComprovante;
 
@@ -98,4 +99,24 @@ public class ComprovanteController : Controller
         return NotFound();
     }
 
+    [HttpGet]
+    public IActionResult ExportComprovantes()
+    {
+        var comprovantes = _context.Comprovantes
+            .Select(c => new
+            {
+                c.Id,
+                c.NomeRemetente,
+                c.Valor,
+                c.DataCadastro
+
+            }).ToList();
+
+        // Converter para JSON (ou outro formato suportado)
+        return Json(comprovantes);
+    }
+
+
 }
+
+

@@ -6,9 +6,9 @@ namespace MoneySIDE.Controllers
 {
     public class LeandingController: Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<LeandingController> _logger;
 
-        public LeandingController(ILogger<HomeController> logger)
+        public LeandingController(ILogger<LeandingController> logger)
         {
             _logger = logger;
         }

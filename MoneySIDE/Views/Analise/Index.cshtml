@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Análise Gráfica";
+    var analises = ViewBag.Analises as List<Analise>;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/scanner.css" />
+    <title>@ViewData["Title"]</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+
+        @if (analises != null && analises.Any())
+        {
+            <canvas id="meuGrafico" width="600" height="300"></canvas>
+            <script>
+                var ctx = document.getElementById('meuGrafico').getContext('2d');
+                var meuGrafico = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: @Html.Raw(Json.Serialize(analises.Select(a => "Data: " +a.Data.ToString("dd/MM/yyyy") + "\nRemetente: " + a.Remetente + "\nDestinatário: " + a.Destinatario))), // Data como rótulo
+                        datasets: [{
+                            label: 'Valores',
+                            data: @Html.Raw(Json.Serialize(analises.Select(a => a.Valor))),
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            },
+
+                            x: {
+                                display: false
+                            }
+                            
+                        },
+
+
+                        tooltips: {
+                            callbacks: {
+                                title: function(tooltipItems) {
+                                    var index = tooltipItems[0].index;
+                                    var analise = @Html.Raw(Json.Serialize(analises)); // Passa as análises para o JS
+                                    
+                                },
+                                label: function(tooltipItem) {
+                                    return 'Valor: ' + tooltipItem.yLabel; // Mostra o valor
+                                }
+                            }
+                        }
+                    }
+                });
+            </script>
+        }
+        else
+        {
+            <p>Nenhum dado disponível para gerar o gráfico.</p>
+        }
+    </div>
+</body>
+</html>

@@ -14,6 +14,7 @@
                     <tr>
                         <th>Valor</th>
                         <th>Nome do Remetente</th>
+                        <th>Nome do Destinatário</th>                       
                         <th>Nome do Banco</th>
                         <th>Tipo de Comprovante</th>
                         <th>Data de Cadastro</th>
@@ -26,6 +27,7 @@
                         <tr>                        
                             <td>@comprovante.Valor</td>
                             <td>@comprovante.NomeRemetente</td>
+                            <td>@comprovante.NomeDestinatario</td>
                             <td>@comprovante.NomeBanco</td>
                             <td>@comprovante.TipoComprovante</td>
                             <td>@comprovante.DataCadastro.ToString("g")</td>
@@ -96,6 +98,10 @@
                             <input type="text" class="form-control" id="nomeRemetente" name="NomeRemetente" />
                         </div>
                         <div class="form-group">
+                            <label for="nomeDestinatario">Nome do Destinatário:</label>
+                            <input type="text" class="form-control" id="nomeDestinatario" name="NomeDestinatario" />
+                        </div>
+                        <div class="form-group">
                             <label for="nomeBanco">Nome do Banco:</label>
                             <input type="text" class="form-control" id="nomeBanco" name="NomeBanco" />
                         </div>
@@ -103,6 +109,11 @@
                             <label for="tipoComprovante">Tipo de Comprovante:</label>
                             <input type="text" class="form-control" id="tipoComprovante" name="TipoComprovante" />
                         </div>
+                        <div class="form-group">
+                            <label for="dataCadastro">Data de Comprovante:</label>
+                            <input type="date" class="form-control" id="dataCadastro" name="DataCadastro" />
+                        </div>
+
                     </div>
                     <div class="modal-footer">
                         
@@ -125,15 +136,18 @@
             $('.edit-btn').on('click', function () {
                 const id = $(this).data('id');
                 
-
+                
                 $.get(`/Comprovante/GetById/${id}`, function (data) {
                     $('#comprovanteId').val(data.id);
                     $('#valor').val(data.valor);
                     $('#nomeRemetente').val(data.nomeRemetente);
+                    $('#nomeDestinatario').val(data.nomeDestinatario);
                     $('#nomeBanco').val(data.nomeBanco);
                     $('#tipoComprovante').val(data.tipoComprovante);
+                    $('#dataCadastro').val(data.dataCadastro.split('T')[0]); // Ajusta a data para o formato YYYY-MM-DD
                     $('comprovanteImage').val(data.imageUrl);
                     $('#editModal').modal('show');
+                    console.log(data)
                 });
             });
             //fechar modal da edição
@@ -191,13 +205,15 @@
             // Carregar dados no modal para edição
     $('.edit-btn').on('click', function () {
         const id = $(this).data('id');
-        
+          
         $.get(`/Comprovante/GetById/${id}`, function (data) {
             $('#comprovanteId').val(data.id);
             $('#valor').val(data.valor);
             $('#nomeRemetente').val(data.nomeRemetente);
+            $('#nomeDestinatario').val(data.nomeDestinatario);
             $('#nomeBanco').val(data.nomeBanco);
             $('#tipoComprovante').val(data.tipoComprovante);
+            $('#dataCadastro').val(data.dataCadastro.split('T')[0]); // Ajusta a data para o formato YYYY-MM-DD
             $('#editModal').modal('show');
         });
     });

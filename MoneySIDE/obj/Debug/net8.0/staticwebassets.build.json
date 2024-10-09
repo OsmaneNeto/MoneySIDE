@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EdGxuyXvWgEE34RzHm87a/uQxpdtXhQfAGzw5SiT38E=",
+  "Hash": "j37IzT/a4HD1ctLtk0mA0U6fzykpI5jvUli2NUQJADI=",
   "Source": "MoneySIDE",
   "BasePath": "_content/MoneySIDE",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MoneySIDE.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\App_Data\\Pyramid-Chart.xls",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "App_Data/Pyramid-Chart.xls",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\App_Data\\Pyramid-Chart.xls"
     },
     {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\datatables.css",
@@ -1689,6 +1708,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg"
     },
     {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\332ee3fe-8800-48ed-9962-b9ac083cde75.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/332ee3fe-8800-48ed-9962-b9ac083cde75.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\332ee3fe-8800-48ed-9962-b9ac083cde75.jpg"
+    },
+    {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg",
       "SourceId": "MoneySIDE",
       "SourceType": "Discovered",
@@ -1765,6 +1803,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4e08b9fd-eeb9-434e-bf15-e2b264953389.jpg"
     },
     {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg"
+    },
+    {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg",
       "SourceId": "MoneySIDE",
       "SourceType": "Discovered",
@@ -1782,6 +1839,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg"
+    },
+    {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c359517e-80ac-4dc5-88db-10036207fde1.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/c359517e-80ac-4dc5-88db-10036207fde1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c359517e-80ac-4dc5-88db-10036207fde1.jpg"
     },
     {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg",
@@ -1803,6 +1879,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg"
     },
     {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png"
+    },
+    {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg",
       "SourceId": "MoneySIDE",
       "SourceType": "Discovered",
@@ -1820,6 +1915,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg"
+    },
+    {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg"
     },
     {
       "Identity": "C:\\Users\\aluno\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.8\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",

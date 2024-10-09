@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Aspose.Cells": {
+              "target": "Package",
+              "version": "[24.9.0, )"
+            },
             "IronSoftware.System.Drawing": {
               "target": "Package",
               "version": "[2024.9.10, )"
@@ -76,6 +80,10 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -86,6 +94,10 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.PowerBI.Api": {
+              "target": "Package",
+              "version": "[4.20.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -93,6 +105,10 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "OfficeOpenXml.Core.ExcelPackage": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "OpenCvSharp4": {
               "target": "Package",

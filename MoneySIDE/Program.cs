@@ -5,6 +5,10 @@ using MoneySIDE.Models;
 using Microsoft.AspNetCore.Identity;
 using MoneySIDE.Areas.Identity.Data;
 using CodeData.Services;
+using MoneySIDE.Services;
+
+
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +23,9 @@ builder.Services.AddRazorPages();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//ComprovantServies
+builder.Services.AddScoped<ComprovanteService>(); // Adicione esta linha
+// Registro do ComprovanteService
 
 
 var app = builder.Build();
@@ -40,6 +47,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Leanding}/{action=Index}/{id?}");
 app.MapRazorPages();
 app.Run();

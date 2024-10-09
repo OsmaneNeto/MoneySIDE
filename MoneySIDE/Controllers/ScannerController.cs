@@ -38,6 +38,26 @@ namespace MoneySIDE.Controllers
             _userManager = userManager; // Inicializando o UserManager
         }
 
+        private DateTime? FindTransactionDate(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+            {
+                return null;
+            }
+
+            // Exemplo de expressão regular para encontrar datas
+            string pattern = @"(\d{1,2}/\d{1,2}/\d{2,4})"; // Formato DD/MM/AAAA ou DD/MM/AA
+            var match = Regex.Match(text, pattern);
+
+            if (match.Success && DateTime.TryParse(match.Groups[1].Value, out var date))
+            {
+                return date;
+            }
+
+            return null;
+        }
+
+
 
         public IActionResult Index()
         {
@@ -122,9 +142,10 @@ namespace MoneySIDE.Controllers
                     {
                         Valor = monetaryValues,
                         NomeRemetente = payerName,
+						NomeDestinatario= recipientName,
                         NomeBanco = bankName,
                         TipoComprovante = comprovanteTipo,
-                        DataCadastro = DateTime.Now,
+                        DataCadastro = FindTransactionDate(extractedText) ?? DateTime.Now,
                         UserId = _userManager.GetUserId(User),
                         Imagem = imageFileName 
                     };
@@ -137,9 +158,9 @@ namespace MoneySIDE.Controllers
 
 
 
-                    ViewBag.Result = $"Informações encontradas:\nTipo de Comprovante: {comprovanteTipo} \nBanco: {bankName} \nNome do Pagador: {payerName} \nNome do Destinatário: {recipientName} \nValores Monetários: {monetaryValues} \nID de transação: {transactionId}";
-        		}
-        		catch (Exception e)
+                    ViewBag.Result = $"Informações encontradas:\nTipo de Comprovante: {comprovanteTipo} \nBanco: {bankName} \nNome do Pagador: {payerName} \nNome do Destinatário: {recipientName} \nValores Monetários: {monetaryValues} \nID de transação: {transactionId} \nData: {comprovante.DataCadastro?.ToString("dd/MM/yyyy") ?? "Data não encontrada"}";
+                }
+                catch (Exception e)
         		{
         			ViewBag.Result = "Erro ao processar o arquivo: " + e.Message;
         		}

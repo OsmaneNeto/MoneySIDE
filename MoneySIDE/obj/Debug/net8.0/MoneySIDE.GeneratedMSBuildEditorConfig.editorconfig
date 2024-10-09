@@ -82,12 +82,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProgramData/Osmane/MoneySIDE/MoneySIDE/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/ProgramData/Osmane/MoneySIDE/MoneySIDE/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/ProgramData/Osmane/MoneySIDE/MoneySIDE/Views/Analise/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hbGlzZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ProgramData/Osmane/MoneySIDE/MoneySIDE/Views/Leanding/Index.cshtml]
