@@ -340,6 +340,12 @@ body {
         }
 
 /* Team Section */
+
+#team .row {
+    display: flex; /* Utiliza flexbox para alinhar as colunas */
+    justify-content: center; /* Centraliza as colunas na linha */
+    flex-wrap: wrap; /* Permite que as colunas se ajustem na linha */
+}
 #team {
     padding: 100px 0;
     background-color: #ffffff;
@@ -361,7 +367,10 @@ body {
 .team-member {
     text-align: center;
     margin-bottom: 30px;
+    flex: 1 1 30%; /* Cada membro ocupa 30% do espaço disponível */
+    max-width: 30%; /* Limita a largura máxima a 30% */
 }
+
 
     .team-member img {
         width: 200px;

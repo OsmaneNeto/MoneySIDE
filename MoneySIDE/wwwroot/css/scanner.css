@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f0f0f0; /* Cor de fundo branca para o container da tabela e formulário */

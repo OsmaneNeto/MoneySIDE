@@ -4,7 +4,8 @@
 
 .b-kmhl4vrndv {
     background-color: #332f37;
-
+    width: 800px; /* Defina a largura desejada */
+    height: 950px; /* Defina a altura desejada */
 }
 
 .container-fluid {

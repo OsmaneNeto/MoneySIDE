@@ -61,6 +61,18 @@
       "PackagePath": "staticwebassets\\img\\imagem (1).png"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (10).png",
+      "PackagePath": "staticwebassets\\img\\imagem (10).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (11).png",
+      "PackagePath": "staticwebassets\\img\\imagem (11).png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (12).png",
+      "PackagePath": "staticwebassets\\img\\imagem (12).png"
+    },
+    {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (2).png",
       "PackagePath": "staticwebassets\\img\\imagem (2).png"
     },
@@ -345,8 +357,16 @@
       "PackagePath": "staticwebassets\\uploads\\06650509-da5b-4aa8-a801-9f21300d2ef6.jpg"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2aff4f6b-b950-405d-85e7-3e62f2c8756c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2aff4f6b-b950-405d-85e7-3e62f2c8756c.jpg"
+    },
+    {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg",
       "PackagePath": "staticwebassets\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\30f06a59-e0c2-4079-b637-5369ab3d5456.jpg",
+      "PackagePath": "staticwebassets\\uploads\\30f06a59-e0c2-4079-b637-5369ab3d5456.jpg"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg",
@@ -359,6 +379,10 @@
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg",
       "PackagePath": "staticwebassets\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3f8b38ae-71e9-4a74-90b8-0ac732f81aec.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3f8b38ae-71e9-4a74-90b8-0ac732f81aec.jpg"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4aafcffa-c8af-4274-a34f-d6fdcb356cbd.jpg",
@@ -377,6 +401,10 @@
       "PackagePath": "staticwebassets\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg"
     },
     {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\7f253a12-39a8-4fb2-b6a1-b94f4c7e376b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7f253a12-39a8-4fb2-b6a1-b94f4c7e376b.jpg"
+    },
+    {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg",
       "PackagePath": "staticwebassets\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg"
     },
@@ -391,6 +419,10 @@
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png",
       "PackagePath": "staticwebassets\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png"
+    },
+    {
+      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\cd5fe723-abf0-42ee-abd6-7468bd8a30a8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cd5fe723-abf0-42ee-abd6-7468bd8a30a8.jpg"
     },
     {
       "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg",
