@@ -1,31 +1,21 @@
-﻿@using Microsoft.AspNetCore.Identity
-
+﻿    @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-
+<div class="d-flex">
+    @if (SignInManager.IsSignedIn(User))
+    {
         var userName = UserManager.GetUserName(User);
         var emailResumido = userName?.Split('@')[0]; // Pega tudo antes do '@'
 
-    <li class="nav-item">
-            <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @emailResumido!</a>
-    </li>
-    <li class="nav-item">
-            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Leanding", new { area = "" })">
-            <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
+        <a id="manage" class="nav-link text-login-logout" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @emailResumido!</a>
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Leanding", new { area = "" })">
+            <button id="logout" type="submit" class="nav-link btn btn-link text-login-logout border-0">Logout</button>
         </form>
-    </li>
-}
-else
-{
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Cadastro</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
-}
-</ul>
+    }
+    else
+    {
+        <a class="nav-link text-login-cadastro" id="register" asp-area="Identity" asp-page="/Account/Register" style="margin-right: 10px;">Cadastro</a>
+        <a class="nav-link text-login-cadastro" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    }
+</div>

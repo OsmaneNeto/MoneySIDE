@@ -1,0 +1,65 @@
+.container__sobre {
+    background-image: url(assets/Background-sobre.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 250vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner__titulo-sobre {
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--cor-letra-texto);
+    line-height: 1.1; /* Ajusta o espaçamento entre as linhas */
+    position: absolute; /* Permite posicionamento absoluto */
+    top: 4em; /* Centraliza verticalmente */
+    left: 4em; /* Espaçamento da borda esquerda (ajuste conforme necessário) */
+    transform: translateY(-50%); /* Centraliza verticalmente em relação ao próprio elemento */
+    white-space: nowrap; /* Impede a quebra de texto */
+}
+
+.card1 {
+    width: 80%;
+    position: absolute;
+    top: 22em;
+    right: 12em;
+}
+
+.card2 {
+    width: 50%;
+    position: absolute;
+    top: 65em;
+    right: 47em;
+}
+
+.container-texto-sobre {
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--cor-letra-texto);
+    line-height: 1.1; /* Ajusta o espaçamento entre as linhas */
+    position: absolute; /* Permite posicionamento absoluto */
+    left: 25em; /* Espaçamento da borda esquerda (ajuste conforme necessário) */
+    transform: translateY(-50%); /* Centraliza verticalmente em relação ao próprio elemento */
+}
+
+.container-paragrafo-sobre {
+    text-align: justify;
+    align-items: center;
+    color: var(--cor-letra-texto);
+    position: absolute;
+    margin-top: 13em;
+    font-size: 1.3em;
+    right: 12em;
+}
+
+.contador {
+    position: absolute;
+    width: 70%;
+    bottom: 35em;
+    right: 15%;
+}

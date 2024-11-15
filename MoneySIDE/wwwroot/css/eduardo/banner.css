@@ -1,0 +1,109 @@
+.banner {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-titulo {
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--cor-letra-texto);
+    line-height: 1.1; /* Ajusta o espaçamento entre as linhas */
+    position: absolute; /* Permite posicionamento absoluto */
+    top: 40%; /* Centraliza verticalmente */
+    left: 28%; /* Espaçamento da borda esquerda (ajuste conforme necessário) */
+    white-space: nowrap; /* Impede a quebra de texto */
+    text-align: center;
+}
+
+.banner-paragrafo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-letra-texto);
+    position: absolute;
+    top: 27em;
+}
+
+.banner-botao:hover {
+  background-position: 100% 0; /* Movimenta o background ao passar o mouse */
+  animation: wave 3s ease infinite; /* Aplica a animação de "ondas" ao passar o mouse */
+}
+
+.banner-link-botao {
+  color: var(--cor-letra-botao);
+  text-decoration: none;
+  font-weight: 300;
+  font-weight: 500;
+  font-family: var(--fonte-principal);
+}
+
+.banner-botao {
+  background: linear-gradient(90deg, #CFCFCF 0%, #999 100%);
+  padding: 0.5em 3em;
+  border: none;
+  position: relative;
+  border-radius: 5px;
+  top: 12em;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--cor-letra-botao);
+  text-decoration: none;
+  background-size: 300%; /* Faz com que o degradê tenha uma largura maior para animar */
+  transition: background-position 0.5s ease; /* Transição suave para o movimento das cores */
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /*.logos {*/
+    /*overflow: hidden;
+    padding: 2.5em 0;
+    background: rgba(0, 0, 0, 0.2);*/ /* Fundo preto com 50% de transparência */
+    /*backdrop-filter: blur(10px);*/ /* Efeito de vidro */
+    /*-webkit-backdrop-filter: blur(10px);*/ /* Suporte para navegadores WebKit */
+    /*white-space: nowrap;
+    position: relative;*/
+  /*}   
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+  }
+  
+  .logos:after {
+    right: 0;
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: auto;
+    margin: 0 40px;
+  }*/

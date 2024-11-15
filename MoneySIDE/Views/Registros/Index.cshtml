@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"> <!-- Adicionei o link para Bootstrap Icons -->
 </head>
 <body>
+    <style>
+
+        .content-wrapper {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+        }
+
+        #idTable_d01 {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+        }
+
+            #idTable_d01 th, #idTable_d01 td {
+                background-color: #000; /* Fundo preto nas células */
+                color: #fff; /* Texto branco nas células */
+            }
+
+            /* Opcional: Cor de fundo das linhas alternadas */
+            #idTable_d01 tbody tr:nth-child(even) {
+                background-color: #333; /* Fundo mais escuro para as linhas pares */
+            }
+
+            #idTable_d01 tbody tr:nth-child(odd) {
+                background-color: #222; /* Fundo um pouco mais claro para as linhas ímpares */
+            }
+    </style>
+
+    <br />
+    <br />
+    <br />
+
+    <br />
     <form id="form1" runat="server">
         <div class="container mt-4">
             <table id="idTable_d01" class="table table-bordered">
@@ -130,13 +162,14 @@
     <script src="~/js/datatables.js"></script>
     <script>
         $(document).ready(function () {
-            let Table = new DataTable('#idTable_d01', {});
+            let Table = new DataTable('#idTable_d01', {
+                // Adicione opções de configuração do DataTables se necessário
+            });
 
-            // Carregar dados no modal para edição
-            $('.edit-btn').on('click', function () {
+            // Delegação de evento para o botão de edição
+            $(document).on('click', '.edit-btn', function () {
                 const id = $(this).data('id');
-                
-                
+
                 $.get(`/Comprovante/GetById/${id}`, function (data) {
                     $('#comprovanteId').val(data.id);
                     $('#valor').val(data.valor);
@@ -145,118 +178,14 @@
                     $('#nomeBanco').val(data.nomeBanco);
                     $('#tipoComprovante').val(data.tipoComprovante);
                     $('#dataCadastro').val(data.dataCadastro.split('T')[0]); // Ajusta a data para o formato YYYY-MM-DD
-                    $('comprovanteImage').val(data.imageUrl);
                     $('#editModal').modal('show');
-                    console.log(data)
-                });
-            });
-            //fechar modal da edição
-
-
-            $('.btn-secondary').on('click', function () {
-                $('#editModal').modal('hide');
-                $('#imageModal').modal('hide');
-            });
-
-            $('.close').on('click', function () {
-                $('#editModal').modal('hide');
-                $('#imageModal').modal('hide');
-            });
-
-
-
-
-
-            // // Visualizar a imagem do comprovante
-            // $('.view-btn').on('click', function () {
-            //     const id = $(this).data('id'); // Obter o ID do botão clicado
-
-            //     $.get(`/Comprovante/GetImage/${id}`, function (data) {
-            //         $('#comprovanteImage').attr('src', data.imageUrl); // Define a URL da imagem
-            //         $('#imageModal').modal('show'); // Abre o modal
-            //     }).fail(function () {
-            //         alert('Erro ao carregar a imagem do comprovante.'); // Mensagem de erro
-            //     });
-            // });
-
-
-            // Função para visualizar a imagem do comprovante
-            function viewImage(id) {
-                $.get(`/Comprovante/GetImage/${id}`, function (data) {
-                    $('#comprovanteImage').attr('src', data.imageUrl); // Define a URL da imagem
-                    $('#imageModal').modal('show'); // Abre o modal
-                }).fail(function () {
-                    alert('Erro ao carregar a imagem do comprovante.'); // Mensagem de erro
-                });
-            }
-
-            // Evento para o botão de visualização na tabela
-            $('.view-btn').on('click', function () {
-                const id = $(this).data('id');
-                viewImage(id);
-            });
-
-            // Evento para o botão de visualização na edição
-            $(document).on('click', '.view-image-btn', function () {
-                const id = $(this).data('id');
-                viewImage(id);
-            });
-
-            // Carregar dados no modal para edição
-    $('.edit-btn').on('click', function () {
-        const id = $(this).data('id');
-          
-        $.get(`/Comprovante/GetById/${id}`, function (data) {
-            $('#comprovanteId').val(data.id);
-            $('#valor').val(data.valor);
-            $('#nomeRemetente').val(data.nomeRemetente);
-            $('#nomeDestinatario').val(data.nomeDestinatario);
-            $('#nomeBanco').val(data.nomeBanco);
-            $('#tipoComprovante').val(data.tipoComprovante);
-            $('#dataCadastro').val(data.dataCadastro.split('T')[0]); // Ajusta a data para o formato YYYY-MM-DD
-            $('#editModal').modal('show');
-        });
-    });
-
-            // Formatar valor ao digitar
-            $('#valor').on('input', function () {
-                let value = $(this).val();
-                // Remove caracteres não numéricos
-                value = value.replace(/[^0-9]/g, '');
-                if (value) {
-                    // Converte para número e formata com vírgula e duas casas decimais
-                    value = (parseFloat(value) / 100).toFixed(2).replace('.', ',');
-                    $(this).val(value);
-                }
-            });
-
-
-            // Enviar dados editados para o servidor
-            $('#editForm').on('submit', function (e) {
-                e.preventDefault(); // Evitar envio padrão do formulário
-                const id = $(this).data('id');
-                const formData = $(this).serialize();
-                
-                $.ajax({
-                    url: `/Comprovante/Update`,
-                    type: 'POST',
-                    data: formData,
-                    success: function () {
-                        $('#editModal').modal('hide');
-                        location.reload(); // Recarregar a página para ver as atualizações
-                    },
-                    error: function (xhr) {
-                        console.error('Erro ao atualizar:', xhr.responseText);
-                        alert('Erro ao atualizar o comprovante.');
-                        console.log(formData);
-                    }
                 });
             });
 
-            // Confirmar e deletar comprovante
-            $('.delete-btn').on('click', function () {
+            // Delegação de evento para o botão de exclusão
+            $(document).on('click', '.delete-btn', function () {
                 const id = $(this).data('id');
-                
+
                 if (confirm('Você tem certeza que deseja deletar este comprovante?')) {
                     $.ajax({
                         url: `/Comprovante/Delete/${id}`,
@@ -270,7 +199,51 @@
                     });
                 }
             });
+
+            // Delegação de evento para o botão de visualização de imagem
+            $(document).on('click', '.view-image-btn', function () {
+                const id = $(this).data('id');
+                $.get(`/Comprovante/GetImage/${id}`, function (data) {
+                    $('#comprovanteImage').attr('src', data.imageUrl); // Define a URL da imagem
+                    $('#imageModal').modal('show'); // Abre o modal
+                }).fail(function () {
+                    alert('Erro ao carregar a imagem do comprovante.'); // Mensagem de erro
+                });
+            });
+
+            // Enviar dados editados para o servidor
+            $('#editForm').on('submit', function (e) {
+                e.preventDefault(); // Evitar envio padrão do formulário
+                const formData = $(this).serialize();
+
+                $.ajax({
+                    url: `/Comprovante/Update`,
+                    type: 'POST',
+                    data: formData,
+                    success: function () {
+                        $('#editModal').modal('hide');
+                        location.reload(); // Recarregar a página para ver as atualizações
+                    },
+                    error: function (xhr) {
+                        console.error('Erro ao atualizar:', xhr.responseText);
+                        alert('Erro ao atualizar o comprovante.');
+                    }
+                });
+            });
+
+            // Formatar valor ao digitar
+            $('#valor').on('input', function () {
+                let value = $(this).val();
+                // Remove caracteres não numéricos
+                value = value.replace(/[^0-9]/g, '');
+                if (value) {
+                    // Converte para número e formata com vírgula e duas casas decimais
+                    value = (parseFloat(value) / 100).toFixed(2).replace('.', ',');
+                    $(this).val(value);
+                }
+            });
         });
+
     </script>
 </body>
 </html>

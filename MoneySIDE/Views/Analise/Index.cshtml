@@ -1,89 +1,105 @@
 ﻿@{
-    ViewData["Title"] = "";
+    ViewData["Title"] = "Análise";
     var analises = ViewBag.Analises as List<Analise>;
     var dataLimiteUmMes = DateTime.Now.AddMonths(-1);
     var dataLimiteSeisMeses = DateTime.Now.AddMonths(-6);
-    var dataLimiteUmAno = DateTime.Now.AddYears(-1); // Data limite para 1 ano
+    var dataLimiteUmAno = DateTime.Now.AddYears(-1);
 
-    // Filtrando análises do último mês
+    // Filtrando e agrupando dados
     var analisesFiltradas = analises?.Where(a => a.Data >= dataLimiteUmMes).ToList();
-
-    // Agrupando valores por data do último mês
     var valoresPorData = analisesFiltradas?.GroupBy(a => a.Data.Date)
-        .Select(g => new
-        {
-            Data = g.Key,
-            SomaValores = g.Sum(a => a.Valor)
-        }).ToList();
+        .Select(g => new { Data = g.Key, SomaValores = g.Sum(a => a.Valor) }).ToList();
 
-    // Filtrando análises dos últimos 6 meses
     var analisesSeisMeses = analises?.Where(a => a.Data >= dataLimiteSeisMeses).ToList();
-
-    // Agrupando valores por mês para os últimos 6 meses
     var valoresPorMes = analisesSeisMeses?.GroupBy(a => new { a.Data.Year, a.Data.Month })
-        .Select(g => new
-        {
-            Mes = new DateTime(g.Key.Year, g.Key.Month, 1),
-            SomaValores = g.Sum(a => a.Valor)
-        }).ToList();
+        .Select(g => new { Mes = new DateTime(g.Key.Year, g.Key.Month, 1), SomaValores = g.Sum(a => a.Valor) }).ToList();
 
-    // Filtrando análises dos últimos 12 meses
     var analisesUmAno = analises?.Where(a => a.Data >= dataLimiteUmAno).ToList();
-
-    // Agrupando valores por mês para os últimos 12 meses
     var valoresPorAno = analisesUmAno?.GroupBy(a => new { a.Data.Year, a.Data.Month })
-        .Select(g => new
-        {
-            Mes = new DateTime(g.Key.Year, g.Key.Month, 1),
-            SomaValores = g.Sum(a => a.Valor)
-        }).ToList();
+        .Select(g => new { Mes = new DateTime(g.Key.Year, g.Key.Month, 1), SomaValores = g.Sum(a => a.Valor) }).ToList();
 }
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="~/css/scanner.css" />
     <style>
+        /* Estilo do conteúdo principal */
+        /* Estilo para o cabeçalho */
+        .header {
+            background-color: #222; /* Cor escura para o fundo do cabeçalho */
+            color: #fff; /* Texto branco */
+            padding: 15px 20px; /* Espaçamento interno */
+            text-align: center; /* Centraliza o título */
+            width: 100%;
+            border-radius: 8px; /* Arredonda os cantos */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombras para dar profundidade */
+        }
+
+        .cabecalho {
+            background-color: #222; /* Cor escura para o fundo do cabeçalho */
+            color: #fff; /* Texto branco */
+            padding: 15px 20px; /* Espaçamento interno */
+            text-align: center; /* Centraliza o título */
+            width: 100%;
+            border-radius: 8px; /* Arredonda os cantos */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombras para dar profundidade */
+        }
+
+        /* Estilo do conteúdo principal */
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza o conteúdo da página */
+            margin: 0; /* Remove margens padrão */
+            padding: 20px; /* Adiciona um pouco de padding */
+        }
+
+        /* Alteração no estilo do container do gráfico */
         .grafico-container {
-            display: flex; /* Usar flexbox para alinhar os gráficos */
-            flex-direction: column; /* Alinha os gráficos em coluna (um embaixo do outro) */
-            margin: 20px 0; /* Espaçamento entre os gráficos */
-            flex-wrap: wrap; /* Permitir que os gráficos se movam para a linha seguinte em telas menores */
-            position: relative; /* Adicione posição relativa */
-            z-index: 1; /* Defina um z-index alto */
+            display: flex;
+            flex-direction: column;
+            margin: 20px auto; /* Centraliza a container */
+            width: 100%;
+            max-width: 1000px; /* Limita a largura máxima */
+            align-items: center; /* Centraliza os itens (gráficos) horizontalmente */
+            justify-content: center; /* Centraliza os itens (gráficos) verticalmente */
         }
 
+        /* Estilo para o item do gráfico */
         .grafico-item {
-            flex: 1; /* Cada gráfico ocupa o mesmo espaço */
-            min-width: 400px; /* Largura mínima para os gráficos */
-            max-width: 800px; /* Largura máxima para os gráficos */
-            margin: 10px auto; /* Margem entre os gráficos, centralizado */
-            text-align: center; /* Centraliza o texto */
-            border: 1px solid #ccc; /* Borda para o contêiner do gráfico */
-            padding: 10px; /* Espaçamento interno */
-            border-radius: 8px; /* Bordas arredondadas */
-            background-color: #f9f9f9; /* Cor de fundo leve */
-            position: relative; /* Se houver uma tabela, também adicione isso */
-            z-index: 2; /* Ou um valor maior, se necessário */
+            width: 100%;
+            max-width: 800px; /* Limita a largura máxima de cada gráfico */
+            margin: 20px 0; /* Espaçamento entre os gráficos */
+            text-align: center; /* Centraliza o texto dentro de cada gráfico */
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #222; /* Fundo escuro para os gráficos */
         }
 
-            .grafico-item:hover {
-                opacity: 1; /* Certifique-se de que a opacidade seja mantida */
-            }
-
-
+        /* Ajustes para o canvas */
         canvas {
-            width: 100% !important; /* Largura do canvas ocupa 100% do contêiner */
-            height: 600px !important; /* Altura do canvas fixada */
+            width: 100% !important; /* Garante que o canvas ocupe toda a largura */
+            height: 400px !important; /* Ajusta a altura do gráfico */
         }
+
+        .container {
+            background-color: #000000;}
+
     </style>
     <title>@ViewData["Title"]</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <div class="container">
-        <h1>@ViewData["Title"]</h1>
-
         <div class="grafico-container">
             @if (analises != null && analises.Any())
             {
@@ -99,28 +115,20 @@
                                 datasets: [{
                                     label: 'Valores',
                                     data: @Html.Raw(Json.Serialize(analises.Select(a => a.Valor))),
-                                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                    backgroundColor: 'rgba(75, 192, 192, 0.6)', /* Transparência para melhor visualização */
                                     borderColor: 'rgba(75, 192, 192, 1)',
                                     borderWidth: 1
                                 }]
                             },
                             options: {
                                 scales: {
-                                    y: {
-                                        beginAtZero: true
-                                    },
-                                    x: {
-                                        display: false
-                                    }
+                                    y: { beginAtZero: true },
+                                    x: { display: false }
                                 },
                                 tooltips: {
                                     callbacks: {
-                                        title: function (tooltipItems) {
-                                            var index = tooltipItems[0].index;
-                                            var analise = @Html.Raw(Json.Serialize(analises));
-                                        },
                                         label: function (tooltipItem) {
-                                            return 'Valor: ' + tooltipItem.yLabel;
+                                            return 'Valor: ' + tooltipItem.raw; // Exibindo valor no tooltip
                                         }
                                     }
                                 }
@@ -141,7 +149,6 @@
                     <canvas id="graficoPorData"></canvas>
                     <script>
                         var ctx2 = document.getElementById('graficoPorData').getContext('2d');
-
                         var labels = @Html.Raw(Json.Serialize(valoresPorData.Select(v => v.Data.ToString("dd/MM/yyyy"))));
                         var dataValues = @Html.Raw(Json.Serialize(valoresPorData.Select(v => v.SomaValores)));
 
@@ -152,17 +159,15 @@
                                 datasets: [{
                                     label: 'Soma dos Valores por Data',
                                     data: dataValues,
-                                    backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                                    backgroundColor: 'rgba(153, 102, 255, 0.6)', /* Transparência para melhor visualização */
                                     borderColor: 'rgba(153, 102, 255, 1)',
                                     borderWidth: 2,
-                                    pointRadius: 7 // Aumenta o tamanho dos pontos
+                                    pointRadius: 5
                                 }]
                             },
                             options: {
                                 scales: {
-                                    y: {
-                                        beginAtZero: true
-                                    }
+                                    y: { beginAtZero: true }
                                 }
                             }
                         });
@@ -192,18 +197,16 @@
                                 datasets: [{
                                     label: 'Soma dos Valores por Mês',
                                     data: dataValuesSeisMeses,
-                                    backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                                    backgroundColor: 'rgba(255, 159, 64, 0.6)', /* Transparência para melhor visualização */
                                     borderColor: 'rgba(255, 159, 64, 1)',
                                     borderWidth: 2,
-                                    pointRadius: 5, // Aumenta o tamanho dos pontos
+                                    pointRadius: 5,
                                     fill: false
                                 }]
                             },
                             options: {
                                 scales: {
-                                    y: {
-                                        beginAtZero: true
-                                    }
+                                    y: { beginAtZero: true }
                                 }
                             }
                         });
@@ -233,18 +236,16 @@
                                 datasets: [{
                                     label: 'Soma dos Valores por Mês',
                                     data: dataValuesUmAno,
-                                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                    backgroundColor: 'rgba(54, 162, 235, 0.6)', /* Transparência para melhor visualização */
                                     borderColor: 'rgba(54, 162, 235, 1)',
                                     borderWidth: 2,
-                                    pointRadius: 5, // Aumenta o tamanho dos pontos
+                                    pointRadius: 5,
                                     fill: false
                                 }]
                             },
                             options: {
                                 scales: {
-                                    y: {
-                                        beginAtZero: true
-                                    }
+                                    y: { beginAtZero: true }
                                 }
                             }
                         });

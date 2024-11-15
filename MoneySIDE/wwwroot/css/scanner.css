@@ -1,37 +1,61 @@
-﻿
-
+﻿/* Atualizando o body para centralizar o conteúdo */
 body {
-    background-color: #f0f0f0; /* Cor de fundo cinza claro para a tela */
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    min-height: 100vh; /* Garante que o corpo ocupa pelo menos a altura da tela */
-    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    min-height: 100vh;
+    padding-left: 50px; /* Adiciona espaço à esquerda, se necessário */
 }
 
+/* Atualizando o wrapper para garantir centralização total */
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha no eixo vertical */
+    justify-content: center; /* Alinha no eixo horizontal */
+    width: 100%;
+    padding: 200px; /* Ajustando padding se necessário */
+    height: 0vh; /* Garantindo que o contêiner ocupe toda a altura da tela */
+}
+
+/* Centralizando o próprio container e ajustando a largura */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Coloca os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    max-width: 1000px; /* Aumentando a largura máxima */
+    width: 100%; /* Faz a largura se ajustar conforme a tela */
     padding: 20px;
-    background-color: #f0f0f0; /* Cor de fundo branca para o container da tabela e formulário */
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
+/* Ajustes para título e formulário */
 h2, h3 {
     color: #333;
+    margin: 0;
 }
 
 form {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
     form div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 10px;
     }
 
 input[type="file"] {
-    display: block;
     margin-top: 5px;
 }
 

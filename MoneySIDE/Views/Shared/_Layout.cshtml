@@ -11,93 +11,59 @@
     <link rel="stylesheet" href="~/MoneySIDE.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
 
+    <!-- Caminho corrigido para os arquivos CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/reset.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/style.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/banner.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/header.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/cards.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/movimentacao.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/eduardo/pontuacao.css")">
 
+    <!-- Incluindo o arquivo JavaScript com o caminho correto -->
+    <script src="@Url.Content("~/scripts/script.js")"></script>
 
-    <style>
-        .navbar-brand {
-            display: flex;
-            align-items: center;
-        }
+    <!-- Fontes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-            .navbar-brand img {
-                height: 40px; /* Ajuste o tamanho da imagem conforme necessário */
-                margin-right: 8px; /* Espaço entre a imagem e o texto */
-            }
-
-        .navbar-nav .nav-link {
-            color: white; /* Texto branco para itens do menu */
-        }
-
-            .navbar-nav .nav-link:hover {
-                color: #ddd; /* Cor do texto ao passar o mouse, se necessário */
-            }
-
-        .navbar-light .navbar-nav .nav-link {
-            color: white; /* Cor branca para links em um fundo claro */
-        }
-
-        .navbar-nav .nav-link {
-            color: white !important; /* Adiciona !important para garantir que a cor branca seja aplicada */
-        }
-
-            .navbar-nav .nav-link:hover {
-                color: #ddd; /* Cor do texto ao passar o mouse, se necessário */
-            }
-
-        .navbar-brand img {
-            height: 40px; /* Para o primeiro logo */
-            margin-right: 8px; /* Espaço entre a imagem e o texto */
-        }
-
-            .navbar-brand img:last-of-type {
-                height: 30px; /* Ajuste o tamanho da segunda imagem */
-            }
-    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/img/MoneySideLogoSemFundo.png" alt="MoneySIDE Logo" />
-                    <img src="~/img/MONEYSIDE (1).png" alt="MoneySIDE titulo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Leanding" asp-action="Index">Leanding</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Scanner" asp-action="Index">Scanner</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Analise" asp-action="Index">Analise</a>
-                        </li>
-                        @await Html.PartialAsync("_LoginPartial")
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    @* <footer class="border-top footer text-muted">
+    <style>
+        </style>
+    <!-- Cabeçalho -->
+    <header class="cabecalho" style=" background-color: #000000;">
         <div class="container">
-            &copy; 2024 - MoneySIDE - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <!-- Logo -->
+            <a href="/">
+                <img style='float:left' class="container__logotipo" src="@Url.Content("~/assets/Logo_MoneySide.svg")" alt="Logotipo do GroovyLab">
+            </a>
+
+            <!-- Navegação -->
+            <div class="navegacao__container" >
+                <nav class="navegacao__links">
+                    <ul class="lista__navegacao" >
+                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Leanding" asp-action="Index">Leanding</a></li>
+                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Scanner" asp-action="Index">Scanner</a></li>
+                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a></li>
+                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Analise" asp-action="Index">Analise</a></li>
+                        <li>@await Html.PartialAsync("_LoginPartial") <!-- Inclui o login/cadastro --></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </footer> *@
+    </header>
+
+    <!-- Espaço após o cabeçalho -->
+    <div class="content-wrapper">
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()  <!-- O conteúdo das páginas vai aqui -->
+            </main>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

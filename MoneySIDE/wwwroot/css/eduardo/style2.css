@@ -1,0 +1,26 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(sobre.css);
+@import url(cards.css);
+@import url(movimentacao.css);
+@import url(pontuacao.css);
+
+:root {
+    --cor-de-fundo: #716e6e;
+    --cor-letra-botao: #000000;
+    --cor-letra-texto: #FFFFFF;
+    --cor-linha-cabecalho: #e9ebf1;
+    --cor-fundo-botao: linear-gradient(90deg, #CFCFCF 0%, #999 100%);
+    --fonte-principal: 'Poppins', sans-serif;
+    --cor-titulo-sobre: linear-gradient(90deg, #000000 -0.82%, #000000 100.66%);
+}
+
+html, body {
+    width: auto;
+    background-color: var(--cor-de-fundo);
+    background-image: url(assets/Background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: var(--fonte-principal);
+}
+

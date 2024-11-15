@@ -1,0 +1,159 @@
+﻿namespace MoneySIDE.wwwroot.css
+{
+    public class coringa
+{
+    /* Cabeçalho fixo com transição */
+    .navbar
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em; /* Ajuste o padding se necessário */
+    box-sizing: border-box; /* Inclui padding e border no width e height total */
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent; /* Inicialmente transparente */
+    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+    transition: background 1s ease; /* Transição suave para o fundo */
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.5); /* Fundo cinza transparente quando rolado */
+}
+
+/* Contêiner para logo e navegação */
+.container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo */
+.navbar-brand img {
+    padding: 0.5em;
+    margin-left: 6.5em;
+    width: 5em;
+    display: flex;
+    position: relative;
+}
+
+/* Navegação */
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 1.5em;
+}
+
+.nav-link {
+    position: relative;
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 0.1em; /* Espaço para o underline */
+}
+
+    /* Efeito de underline nos links */
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0.01em; /* Altura da linha */
+        background-color: #fff; /* Cor do underline */
+        transition: width 0.5s ease-in-out, left 0.1s ease-in-out;
+    }
+
+    .nav-link:hover::after {
+        width: 100%; /* A linha se expande completamente sob o link */
+        left: 0;
+    }
+
+    .nav-link:not(:hover)::after {
+        width: 0;
+        left: 0;
+    }
+
+/* Botão com efeito de hover */
+.btn-custom {
+    background: linear-gradient(90deg, #CFCFCF 0%, #999 100%);
+    padding: 0.5em 3em;
+    border: none;
+    position: relative;
+    right: 6em;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    background-size: 300%;
+    transition: background-position 0.5s ease;
+}
+
+    .btn-custom:hover {
+        background-position: 100% 0;
+    }
+
+    .btn-custom:hover {
+        animation: wave 3s ease infinite;
+    }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container-fluid {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .navbar-brand {
+        margin-bottom: 1em;
+    }
+
+    .navbar-collapse {
+        margin: 1em 0;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 0.5em 0;
+    }
+
+    .btn-custom {
+        margin: 1em 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-custom {
+        padding: 0.5em 1.5em;
+        font-size: 0.9rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
+    }
+}

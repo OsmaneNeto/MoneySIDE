@@ -1,7 +1,6 @@
 ﻿@{
     ViewBag.Title = "Analisar Extrato Bancário";
 }
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,24 +8,128 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div class="container">
-        <h2>@ViewBag.Title</h2>
+    <style>
+        *{color:#ffffff;}
 
-        <form asp-action="Upload" asp-controller="Scanner" method="post" enctype="multipart/form-data">
-            <div>
-                <label for="file">Selecione o arquivo do extrato bancário:</label>
-                <input type="file" name="file" id="file" />
-            </div>
-            <div>
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
-
-        @if (ViewBag.Result != null)
-        {
-            <h3>Resultado da Análise:</h3>
-            <pre>@ViewBag.Result</pre>
+        .container__logotipo{
+            display: flex;
+            position:absolute;
+            left: 5em;
         }
-    </div>
+        /* Atualizando o body para ter fundo preto */
+        body {
+            background-color: #000; /* Fundo preto */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px; /* Adiciona padding ao redor da página */
+        }
+
+        /* Wrapper para o conteúdo */
+        .container-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 80px; /* Ajuste de padding se necessário */
+           
+        }
+
+        .pre {
+            color: #000000;
+        }pre {
+            color: #000000;
+        }
+
+        /* Container principal */
+        .container {
+            display: flex;
+            flex-direction: column; /* Coloca os itens verticalmente */
+            max-width: 1000px; /* Largura máxima */
+            width: 100%; /* Largura ajustável */
+            padding: 20px;
+            background-color: #000000; /* Fundo branco para o container */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+
+        /* Ajustes para título e formulário */
+        h2, h3 {
+            color: #000;
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Alinha os itens à esquerda */
+        }
+
+            form div {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start; /* Alinha os itens à esquerda */
+                margin-bottom: 10px;
+            }
+
+        input[type="file"] {
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        .error {
+            color: red;
+        }
+
+        .valor-monitario {
+            color: black;
+        }
+
+        /* Estilo para a saída do resultado da análise */
+        .resultado {
+            border: 1px solid #007bff; /* Contorno azul */
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 20px; /* Espaço acima do resultado */
+            background-color: #f9f9f9; /* Fundo claro para contraste */
+            color: #000; /* Cor do texto */
+        }
+    </style>
+
+   
+        <div class="container">
+            <h2>@ViewBag.Title</h2>
+
+            <form asp-action="Upload" asp-controller="Scanner" method="post" enctype="multipart/form-data">
+                <div>
+                    <label style="color: #ffffff" for="file">Selecione o arquivo do extrato bancário:</label>
+                    <input type="file" name="file" id="file" />
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+
+            @if (ViewBag.Result != null)
+            {
+                <h3>Resultado da Análise:</h3>
+                <div class="resultado">
+                    <pre>@ViewBag.Result</pre>
+                </div>
+            }
+        </div>
+    
 </body>
 </html>
