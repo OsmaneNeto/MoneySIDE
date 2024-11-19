@@ -1,10 +1,103 @@
 ﻿@inject SignInManager<IdentityUser> SignInManager
+<style>
+    /* Ajuste geral do layout da página */
+    .col-md-9 {
+        margin-top: 50px; /* Move a seção para baixo, criando espaço entre o topo da página e o conteúdo */
+    }
+
+    /* Formulário e campos de input */
+    #profile-form {
+        margin-top: 30px; /* Adiciona um espaçamento superior ao formulário */
+    }
+
+    /* Container do formulário (garante alinhamento à direita) */
+    .row {
+        display: flex; /* Usa flexbox para alinhar os itens */
+        justify-content: flex-end; /* Alinha o conteúdo à direita */
+    }
+
+    .col-md-6 {
+        max-width: 500px; /* Ajusta o tamanho máximo da coluna */
+        width: 100%; /* Garante que a coluna ocupe toda a largura disponível */
+    }
+
+    /* Alinhando o conteúdo dentro do formulário */
+    .form-floating {
+        margin-bottom: 30px; /* Aumenta o espaço entre os campos */
+        text-align: left; /* Justifica os campos à esquerda */
+    }
+
+    /* Estilo dos campos de entrada */
+    .form-control {
+        background-color: #444; /* Cor de fundo para o campo de entrada */
+        color: white; /* Texto dentro do campo de entrada */
+        border: 1px solid #555; /* Borda do campo */
+        border-radius: 5px; /* Bordas arredondadas */
+        padding: 12px 15px; /* Aumenta o espaço interno dos campos */
+        font-size: 16px; /* Tamanho da fonte */
+        margin-bottom: 20px; /* Espaço inferior entre os campos */
+    }
+
+    /* Estilo dos rótulos */
+    .form-label {
+        font-size: 16px; /* Tamanho da fonte dos rótulos */
+        font-weight: bold; /* Deixa o texto mais espesso */
+    }
+
+    /* Ajustando o botão */
+    #update-profile-button {
+        margin-top: 30px; /* Espaço superior para o botão */
+        background-color: #007bff; /* Cor de fundo azul para o botão */
+        border-color: #007bff; /* Borda azul */
+        color: white; /* Cor do texto no botão */
+        font-size: 16px; /* Tamanho da fonte no botão */
+        padding: 12px; /* Aumenta o espaço interno do botão */
+        border-radius: 5px; /* Bordas arredondadas no botão */
+    }
+
+        #update-profile-button:hover {
+            background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+            border-color: #004085; /* Cor da borda ao passar o mouse */
+        }
+
+        #update-profile-button:focus {
+            box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); /* Efeito de foco no botão */
+        }
+
+    /* Ajustando a validação */
+    .text-danger {
+        font-size: 14px; /* Tamanho da fonte para mensagens de erro */
+    }
+
+    .field-validation-valid {
+        display: block; /* Exibe a mensagem de erro */
+    }
+
+    /* Estilo geral para a página */
+    body {
+        background-color: #333; /* Cor de fundo da página */
+        color: white; /* Cor de texto padrão */
+    }
+
+    h3 {
+        font-size: 24px; /* Tamanho da fonte para o título */
+        font-weight: bold; /* Deixa o título mais espesso */
+        margin-bottom: 30px; /* Espaçamento abaixo do título */
+    }
+
+
+
+</style>
 
 <br />
 <br />
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+
 
 
 @{
@@ -12,6 +105,7 @@
 }
 
 <ul class="nav nav-pills flex-column">
+    
     <li class="nav-item"><a class="nav-link @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">Profile</a></li>
     <li class="nav-item"><a class="nav-link @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">Email</a></li>
     <li class="nav-item"><a class="nav-link @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">Password</a></li>
@@ -22,3 +116,12 @@
     <li class="nav-item"><a class="nav-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">Two-factor authentication</a></li>
     <li class="nav-item"><a class="nav-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">Personal data</a></li>
 </ul>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

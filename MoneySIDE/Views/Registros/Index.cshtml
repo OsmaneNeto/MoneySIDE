@@ -162,6 +162,19 @@
     <script src="~/js/datatables.js"></script>
     <script>
         $(document).ready(function () {
+            
+            // Fechar modais com os botões "Cancelar" ou "X"
+            $('.modal').on('click', '.close, .btn-secondary', function () {
+                $(this).closest('.modal').modal('hide');
+            });
+
+            // Fechar modal ao pressionar "Esc"
+            $(document).on('keydown', function (e) {
+                if (e.key === 'Escape') {
+                    $('.modal.show').modal('hide'); // Fecha o modal ativo
+                }
+            });
+            
             let Table = new DataTable('#idTable_d01', {
                 // Adicione opções de configuração do DataTables se necessário
             });

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PkFKVS1EpHgdanvyaAkIL4ksogFpWZpWF3IP6PL04Sw=",
+  "Hash": "TLswrGrGhOGqlSJRlQJy+bZMT8bFdQEChB9ycCHFYfs=",
   "Source": "MoneySIDE",
   "BasePath": "_content/MoneySIDE",
   "Mode": "Default",
@@ -2753,6 +2753,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3857b71b-ec0f-4ead-822d-19fd998918ce.jpg"
     },
     {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3b2ee1fc-99c9-44fa-83da-9259cdf445f3.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/3b2ee1fc-99c9-44fa-83da-9259cdf445f3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3b2ee1fc-99c9-44fa-83da-9259cdf445f3.jpg"
+    },
+    {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3f8b38ae-71e9-4a74-90b8-0ac732f81aec.jpg",
       "SourceId": "MoneySIDE",
       "SourceType": "Discovered",
@@ -2979,6 +2998,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg"
+    },
+    {
+      "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\6f1aaa17-c9b2-4220-ba9d-a722a3565cf4.jpg",
+      "SourceId": "MoneySIDE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\",
+      "BasePath": "_content/MoneySIDE",
+      "RelativePath": "uploads/6f1aaa17-c9b2-4220-ba9d-a722a3565cf4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6f1aaa17-c9b2-4220-ba9d-a722a3565cf4.jpg"
     },
     {
       "Identity": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\770fd382-dc12-4e54-be13-082ca77e4f50.png",
