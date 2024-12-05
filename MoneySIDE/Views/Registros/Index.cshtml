@@ -247,14 +247,23 @@
             // Formatar valor ao digitar
             $('#valor').on('input', function () {
                 let value = $(this).val();
-                // Remove caracteres não numéricos
-                value = value.replace(/[^0-9]/g, '');
+
+                // Permitir o sinal de negativo no início do valor
+                if (value.indexOf('-') === 0) {
+                    // Se já tiver um sinal de negativo, manter
+                    value = '-' + value.replace(/[^0-9,]/g, ''); // Permite apenas números e vírgulas
+                } else {
+                    // Remover o sinal de negativo se o usuário apagar
+                    value = value.replace(/[^0-9,]/g, ''); // Remove caracteres não numéricos
+                }
+
                 if (value) {
                     // Converte para número e formata com vírgula e duas casas decimais
-                    value = (parseFloat(value) / 100).toFixed(2).replace('.', ',');
-                    $(this).val(value);
+                    let formattedValue = parseFloat(value.replace(',', '.')).toFixed(2).replace('.', ',');
+                    $(this).val(formattedValue);
                 }
             });
+
         });
 
     </script>

@@ -418,24 +418,42 @@ namespace MoneySIDE.Controllers
 			return "Desconhecido";
 		}
 
-
-
-		private string FindMonetaryValues(string text)
+        private string FindMonetaryValues(string text)
         {
             if (string.IsNullOrEmpty(text))
             {
                 return "Nenhum texto extraído.";
             }
 
-            // Expressão regular mais genérica para valores monetários
+            // Expressão regular para valores monetários
             string pattern = @"R\$\s*(\d+,\d{2})";
             var matches = Regex.Matches(text, pattern);
 
-            if (matches.Count > 0)
+            // Criar lista para armazenar os valores monetários
+            List<string> monetaryValues = new List<string>();
+
+            // Verificar se o valor é uma entrada ou saída
+            foreach (Match match in matches)
+            {
+                string value = match.Groups[1].Value;
+
+                // Aqui você pode adicionar lógicas específicas para determinar se o valor é negativo ou positivo
+                if (text.Contains("débito") || text.Contains("saída"))
+                {
+                    // Se o texto contém palavras que indicam saída (débito), marcar como negativo
+                    monetaryValues.Add($"- {value}");
+                }
+                else
+                {
+                    // Caso contrário, tratar como positivo
+                    monetaryValues.Add($"{value}");
+                }
+            }
+
+            if (monetaryValues.Count > 0)
             {
                 // Retorna todos os valores encontrados separados por vírgula
-                var values = string.Join(", ", matches.Cast<Match>().Select(m => m.Groups[1].Value));
-                return values;
+                return string.Join(", ", monetaryValues);
             }
             else
             {
@@ -443,8 +461,36 @@ namespace MoneySIDE.Controllers
             }
         }
 
-		// Nome do destinatário
-		private string FindRecipientName(string text)
+
+
+
+        //private string FindMonetaryValues(string text)
+        //      {
+        //          if (string.IsNullOrEmpty(text))
+        //          {
+        //              return "Nenhum texto extraído.";
+        //          }
+
+        //          // Expressão regular mais genérica para valores monetários
+        //          string pattern = @"R\$\s*(\d+,\d{2})";
+        //          var matches = Regex.Matches(text, pattern);
+
+
+
+        //          if (matches.Count > 0)
+        //          {
+        //              // Retorna todos os valores encontrados separados por vírgula
+        //              var values = string.Join(", ", matches.Cast<Match>().Select(m => m.Groups[1].Value));
+        //              return values;
+        //          }
+        //          else
+        //          {
+        //              return "Nenhum valor monetário encontrado.";
+        //          }
+        //      }
+
+        // Nome do destinatário
+        private string FindRecipientName(string text)
 		{
 			if (string.IsNullOrEmpty(text))
 			{
