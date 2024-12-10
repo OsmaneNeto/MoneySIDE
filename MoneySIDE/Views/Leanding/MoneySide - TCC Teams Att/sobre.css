@@ -1,0 +1,90 @@
+.container__sobre {
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 170vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner__titulo-sobre {
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+    line-height: 1.1; /* Ajusta o espaçamento entre as linhas */
+    position: absolute; /* Permite posicionamento absoluto */
+    margin: 0% 30% 55% 0%;
+    /* top: 4em;
+    left: 3em; */
+    transform: translateY(-50%); /* Centraliza verticalmente em relação ao próprio elemento */
+    white-space: nowrap; /* Impede a quebra de texto */
+}
+
+.card1 {
+    width: 80%;
+    position: absolute;
+    /* top: 19em;
+    right: 12em; */
+    margin: 0% 0% 20% 0%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave para a animação */
+    z-index: 1; /* Garante que o cabeçalho esteja acima de outros elementos */
+
+}
+
+.card1:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do card */
+}
+
+.container__sobre-ondas {
+    width: 50%;
+    position: absolute;
+    top: 5em;
+    right: 0;
+    z-index: 0; /* Garante que o cabeçalho esteja acima de outros elementos */
+}
+
+.card2 {
+    width: 39%;
+    position: absolute;
+    /* top: 48em;
+    right: 51em; */
+    margin: 40% 41% 0% 0%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave para a animação */
+}
+
+.card2:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do card */
+}
+
+.card3 {
+    width: 39%;
+    position: absolute;
+    /* top: 48em;
+    right: 12em; */
+    margin: 40% 0% 0% 41%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave para a animação */
+}
+
+.card3:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do card */
+}
+
+.container-paragrafo-sobre {
+    text-align: justify;
+    align-items: center;
+    color: var(--cor-letra-texto);
+    position: absolute;
+    margin-top: 13em;
+    font-size: 1.3em;
+    right: 12em;
+}
+
+/* Media Queries */
+@@media (max-width: 1414px) {
+
+    .banner__titulo-sobre {
+        margin-left: 4%;
+    }
+}

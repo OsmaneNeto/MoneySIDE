@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Leanding\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Leanding\index.html">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Aspose.Cells" Version="24.9.0" />
     <PackageReference Include="IronSoftware.System.Drawing" Version="2024.9.10" />
     <PackageReference Include="itext7" Version="8.0.5" />

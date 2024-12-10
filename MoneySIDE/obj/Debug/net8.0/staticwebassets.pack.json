@@ -1,755 +1,1091 @@
 {
   "Files": [
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MoneySIDE.bundle.scp.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MoneySIDE.bundle.scp.css",
       "PackagePath": "staticwebassets\\MoneySIDE.bundle.scp.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\App_Data\\Pyramid-Chart.xls",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\App_Data\\Pyramid-Chart.xls",
       "PackagePath": "staticwebassets\\App_Data\\Pyramid-Chart.xls"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Background-cards.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Background-cards.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Background-cards.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Background-sobre.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Background-sobre.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Background.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Background.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Backgroundd.png",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Backgroundd.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Card1-sobre.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Card1-sobre.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Cartao.png",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Cartao.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Cartoes-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Cartoes-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Cartões.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Cartões.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Circle.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Circle.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Contador.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Contador.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Dashboard-card2.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Dashboard-card2.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Dashboard-montanhas.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Dashboard-montanhas.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Dinheiro.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Dinheiro.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Dívidas.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Dívidas.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa01.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa01.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa02.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa02.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa03.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa03.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa04.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa04.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa05.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa05.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa06.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa06.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa07.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa07.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa08.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa08.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa09.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa09.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa10.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa10.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa11.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa11.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa12.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa12.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa13.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa13.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa14.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa14.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Empresa15.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Empresa15.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Logo-Resumida.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Logo-Resumida.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Logo_GroovyLab.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Logo_GroovyLab.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Logo_MoneySide.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Logo_MoneySide.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Moneyside.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Moneyside.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Movimentacao.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Movimentacao.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Notebook.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Notebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Ondas-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Ondas-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Ondas.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Ondas.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Pontuacao.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Pontuacao.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Score.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Score.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Smartphone.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Smartphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Texto-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Texto-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\Vector-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\Vector-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\abs-banner.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\abs-banner.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\abs-footer.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\abs-footer.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\abs-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\abs-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\bg-footer.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\bg-footer.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\bg-form.jpg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\bg-form.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\bg-login.jpg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\bg-login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\card-criptografia.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\card-criptografia.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\card-metas.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\card-metas.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\card-precisao.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\card-precisao.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\card-relatorios.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\card-relatorios.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\card-rentabilidade.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\card-rentabilidade.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\card-usabilidade.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\card-usabilidade.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\circle.png",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\circle.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\cristal-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\cristal-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\espiral-faq.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\espiral-faq.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\gastos-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\gastos-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\glow-recursos-left.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\glow-recursos-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\glow-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\glow-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\iphone-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\iphone-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\lupa-faq.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\lupa-faq.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\lupa-faw.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\lupa-faw.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\questionamentos-faq.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\questionamentos-faq.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\ring-abs.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\ring-abs.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\smartphone-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\smartphone-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\total-ganho.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\total-ganho.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\assets\\waves-recursos.svg",
+      "PackagePath": "staticwebassets\\FRONT\\assets\\waves-recursos.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\banner.css",
+      "PackagePath": "staticwebassets\\FRONT\\banner.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\faq.css",
+      "PackagePath": "staticwebassets\\FRONT\\faq.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\footer.css",
+      "PackagePath": "staticwebassets\\FRONT\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\form-style.css",
+      "PackagePath": "staticwebassets\\FRONT\\form-style.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\form.html",
+      "PackagePath": "staticwebassets\\FRONT\\form.html"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\header.css",
+      "PackagePath": "staticwebassets\\FRONT\\header.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\index.html",
+      "PackagePath": "staticwebassets\\FRONT\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\recursos.css",
+      "PackagePath": "staticwebassets\\FRONT\\recursos.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\reset.css",
+      "PackagePath": "staticwebassets\\FRONT\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\script.js",
+      "PackagePath": "staticwebassets\\FRONT\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\sobre.css",
+      "PackagePath": "staticwebassets\\FRONT\\sobre.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\FRONT\\style.css",
+      "PackagePath": "staticwebassets\\FRONT\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Background-cards.svg",
       "PackagePath": "staticwebassets\\assets\\Background-cards.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Background-sobre.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Background-sobre.svg",
       "PackagePath": "staticwebassets\\assets\\Background-sobre.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Background.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Background.svg",
       "PackagePath": "staticwebassets\\assets\\Background.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Card1-sobre.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Card1-sobre.svg",
       "PackagePath": "staticwebassets\\assets\\Card1-sobre.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Contador.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Contador.svg",
       "PackagePath": "staticwebassets\\assets\\Contador.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Dashboard-card2.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Dashboard-card2.svg",
       "PackagePath": "staticwebassets\\assets\\Dashboard-card2.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Dashboard-montanhas.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Dashboard-montanhas.svg",
       "PackagePath": "staticwebassets\\assets\\Dashboard-montanhas.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa01.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa01.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa01.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa02.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa02.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa02.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa03.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa03.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa03.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa04.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa04.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa04.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa05.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa05.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa05.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa06.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa06.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa06.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa07.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa07.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa07.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa08.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa08.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa08.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa09.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa09.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa09.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa10.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa10.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa10.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa11.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa11.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa11.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa12.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa12.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa12.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa13.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa13.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa13.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa14.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa14.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa14.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Empresa15.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Empresa15.svg",
       "PackagePath": "staticwebassets\\assets\\Empresa15.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Logo-Resumida.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Logo-Resumida.svg",
       "PackagePath": "staticwebassets\\assets\\Logo-Resumida.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Logo_GroovyLab.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Logo_GroovyLab.svg",
       "PackagePath": "staticwebassets\\assets\\Logo_GroovyLab.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Logo_MoneySide.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Logo_MoneySide.svg",
       "PackagePath": "staticwebassets\\assets\\Logo_MoneySide.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Movimentacao.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Movimentacao.svg",
       "PackagePath": "staticwebassets\\assets\\Movimentacao.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Notebook.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Notebook.svg",
       "PackagePath": "staticwebassets\\assets\\Notebook.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Pontuacao.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Pontuacao.svg",
       "PackagePath": "staticwebassets\\assets\\Pontuacao.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Score.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Score.svg",
       "PackagePath": "staticwebassets\\assets\\Score.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\assets\\Smartphone.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\assets\\Smartphone.svg",
       "PackagePath": "staticwebassets\\assets\\Smartphone.svg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\coringa.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\coringa.css",
       "PackagePath": "staticwebassets\\css\\coringa.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\datatables.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\datatables.css",
       "PackagePath": "staticwebassets\\css\\datatables.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\datatables.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\datatables.min.css",
       "PackagePath": "staticwebassets\\css\\datatables.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\banner.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\banner.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\banner.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\cards.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\cards.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\cards.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\header.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\header.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\header.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\reset.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\reset.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\reset.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\script.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\script.js",
       "PackagePath": "staticwebassets\\css\\eduardo\\script.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\sobre.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\sobre.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\sobre.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\style.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\style.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\style.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\eduardo\\style2.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\eduardo\\style2.css",
       "PackagePath": "staticwebassets\\css\\eduardo\\style2.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\estiloLeanding.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\estiloLeanding.css",
       "PackagePath": "staticwebassets\\css\\estiloLeanding.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\globals.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\globals.css",
       "PackagePath": "staticwebassets\\css\\globals.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\layout.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\layout.css",
       "PackagePath": "staticwebassets\\css\\layout.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\scanner.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\scanner.css",
       "PackagePath": "staticwebassets\\css\\scanner.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\favicon - Copia.ico",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\favicon - Copia.ico",
       "PackagePath": "staticwebassets\\favicon - Copia.ico"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MONEYSIDE (1).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\MONEYSIDE (1).png",
       "PackagePath": "staticwebassets\\img\\MONEYSIDE (1).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MoneySideLogoComFundo2.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\MoneySideLogoComFundo2.png",
       "PackagePath": "staticwebassets\\img\\MoneySideLogoComFundo2.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\MoneySideLogoSemFundo.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\MoneySideLogoSemFundo.png",
       "PackagePath": "staticwebassets\\img\\MoneySideLogoSemFundo.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (1).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (1).png",
       "PackagePath": "staticwebassets\\img\\imagem (1).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (10).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (10).png",
       "PackagePath": "staticwebassets\\img\\imagem (10).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (11).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (11).png",
       "PackagePath": "staticwebassets\\img\\imagem (11).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (12).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (12).png",
       "PackagePath": "staticwebassets\\img\\imagem (12).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (2).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (2).png",
       "PackagePath": "staticwebassets\\img\\imagem (2).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (3).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (3).png",
       "PackagePath": "staticwebassets\\img\\imagem (3).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (4).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (4).png",
       "PackagePath": "staticwebassets\\img\\imagem (4).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (5).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (5).png",
       "PackagePath": "staticwebassets\\img\\imagem (5).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (6).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (6).png",
       "PackagePath": "staticwebassets\\img\\imagem (6).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (7).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (7).png",
       "PackagePath": "staticwebassets\\img\\imagem (7).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (8).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (8).png",
       "PackagePath": "staticwebassets\\img\\imagem (8).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\imagem (9).png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\imagem (9).png",
       "PackagePath": "staticwebassets\\img\\imagem (9).png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\lixeira.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\lixeira.png",
       "PackagePath": "staticwebassets\\img\\lixeira.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\img\\nmt7pMRKQ52W8mwnSaddKQ.jfif",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\img\\nmt7pMRKQ52W8mwnSaddKQ.jfif",
       "PackagePath": "staticwebassets\\img\\nmt7pMRKQ52W8mwnSaddKQ.jfif"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\js\\datatables.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\js\\datatables.js",
       "PackagePath": "staticwebassets\\js\\datatables.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\js\\datatables.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\js\\datatables.min.js",
       "PackagePath": "staticwebassets\\js\\datatables.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\tessdata\\eng.traineddata",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\tessdata\\eng.traineddata",
       "PackagePath": "staticwebassets\\tessdata\\eng.traineddata"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\06650509-da5b-4aa8-a801-9f21300d2ef6.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\06650509-da5b-4aa8-a801-9f21300d2ef6.jpg",
       "PackagePath": "staticwebassets\\uploads\\06650509-da5b-4aa8-a801-9f21300d2ef6.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\142f0c8d-ae8b-4d23-8ce4-c8b8e5bfde00.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\142f0c8d-ae8b-4d23-8ce4-c8b8e5bfde00.png",
       "PackagePath": "staticwebassets\\uploads\\142f0c8d-ae8b-4d23-8ce4-c8b8e5bfde00.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\14b26e95-1f34-46a7-9cc0-39d8cea73538.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\14b26e95-1f34-46a7-9cc0-39d8cea73538.png",
       "PackagePath": "staticwebassets\\uploads\\14b26e95-1f34-46a7-9cc0-39d8cea73538.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\193b56c8-8811-4d75-ade7-a41f702c21eb.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\193b56c8-8811-4d75-ade7-a41f702c21eb.png",
       "PackagePath": "staticwebassets\\uploads\\193b56c8-8811-4d75-ade7-a41f702c21eb.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2622fded-561d-41ca-a104-a5d66051aabe.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\2622fded-561d-41ca-a104-a5d66051aabe.jpg",
       "PackagePath": "staticwebassets\\uploads\\2622fded-561d-41ca-a104-a5d66051aabe.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\27581c1b-77e5-4aab-8a79-4d6d25a12ff0.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\27581c1b-77e5-4aab-8a79-4d6d25a12ff0.png",
       "PackagePath": "staticwebassets\\uploads\\27581c1b-77e5-4aab-8a79-4d6d25a12ff0.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2aff4f6b-b950-405d-85e7-3e62f2c8756c.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\2aff4f6b-b950-405d-85e7-3e62f2c8756c.jpg",
       "PackagePath": "staticwebassets\\uploads\\2aff4f6b-b950-405d-85e7-3e62f2c8756c.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2d38ab1a-5865-4c30-a37c-07963c2dd6a4.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\2d38ab1a-5865-4c30-a37c-07963c2dd6a4.png",
       "PackagePath": "staticwebassets\\uploads\\2d38ab1a-5865-4c30-a37c-07963c2dd6a4.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg",
       "PackagePath": "staticwebassets\\uploads\\2ee7e76a-39a0-4d73-830f-e819314f650d.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\2f5891f0-aee6-40f8-abd0-a034453cebe7.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\2f5891f0-aee6-40f8-abd0-a034453cebe7.png",
       "PackagePath": "staticwebassets\\uploads\\2f5891f0-aee6-40f8-abd0-a034453cebe7.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\30f06a59-e0c2-4079-b637-5369ab3d5456.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\30f06a59-e0c2-4079-b637-5369ab3d5456.jpg",
       "PackagePath": "staticwebassets\\uploads\\30f06a59-e0c2-4079-b637-5369ab3d5456.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg",
       "PackagePath": "staticwebassets\\uploads\\31920ba8-99f2-42dc-8be0-3ebe40e35fc1.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\32c82d18-af35-4f91-89ed-101c58e34347.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\32c82d18-af35-4f91-89ed-101c58e34347.png",
       "PackagePath": "staticwebassets\\uploads\\32c82d18-af35-4f91-89ed-101c58e34347.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\332ee3fe-8800-48ed-9962-b9ac083cde75.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\332ee3fe-8800-48ed-9962-b9ac083cde75.jpg",
       "PackagePath": "staticwebassets\\uploads\\332ee3fe-8800-48ed-9962-b9ac083cde75.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg",
       "PackagePath": "staticwebassets\\uploads\\3560fa55-a415-49cd-a440-29bce4d2743f.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3620330d-871a-43e7-9d65-ac4eafd245b8.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\3620330d-871a-43e7-9d65-ac4eafd245b8.jpg",
       "PackagePath": "staticwebassets\\uploads\\3620330d-871a-43e7-9d65-ac4eafd245b8.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3857b71b-ec0f-4ead-822d-19fd998918ce.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\3857b71b-ec0f-4ead-822d-19fd998918ce.jpg",
       "PackagePath": "staticwebassets\\uploads\\3857b71b-ec0f-4ead-822d-19fd998918ce.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3b2ee1fc-99c9-44fa-83da-9259cdf445f3.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\3b2ee1fc-99c9-44fa-83da-9259cdf445f3.jpg",
       "PackagePath": "staticwebassets\\uploads\\3b2ee1fc-99c9-44fa-83da-9259cdf445f3.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\3f8b38ae-71e9-4a74-90b8-0ac732f81aec.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\3f8b38ae-71e9-4a74-90b8-0ac732f81aec.jpg",
       "PackagePath": "staticwebassets\\uploads\\3f8b38ae-71e9-4a74-90b8-0ac732f81aec.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\401457f1-5cb8-4116-996d-0119f8456f99.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\401457f1-5cb8-4116-996d-0119f8456f99.jpg",
       "PackagePath": "staticwebassets\\uploads\\401457f1-5cb8-4116-996d-0119f8456f99.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4aafcffa-c8af-4274-a34f-d6fdcb356cbd.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\4aafcffa-c8af-4274-a34f-d6fdcb356cbd.jpg",
       "PackagePath": "staticwebassets\\uploads\\4aafcffa-c8af-4274-a34f-d6fdcb356cbd.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4b699479-f3e5-4684-ba5f-fd06f0ece86c.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\4b699479-f3e5-4684-ba5f-fd06f0ece86c.jpg",
       "PackagePath": "staticwebassets\\uploads\\4b699479-f3e5-4684-ba5f-fd06f0ece86c.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\4e08b9fd-eeb9-434e-bf15-e2b264953389.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\4e08b9fd-eeb9-434e-bf15-e2b264953389.jpg",
       "PackagePath": "staticwebassets\\uploads\\4e08b9fd-eeb9-434e-bf15-e2b264953389.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\5129056f-43f6-45fd-ade9-a694acdde1d0.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\5129056f-43f6-45fd-ade9-a694acdde1d0.png",
       "PackagePath": "staticwebassets\\uploads\\5129056f-43f6-45fd-ade9-a694acdde1d0.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\587bb023-1da5-4abe-80c1-282fc9314277.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\587bb023-1da5-4abe-80c1-282fc9314277.jpg",
       "PackagePath": "staticwebassets\\uploads\\587bb023-1da5-4abe-80c1-282fc9314277.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\5a43303e-204d-4dea-917b-b85abae3c215.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\5a43303e-204d-4dea-917b-b85abae3c215.png",
       "PackagePath": "staticwebassets\\uploads\\5a43303e-204d-4dea-917b-b85abae3c215.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\673a84e6-28ec-4b07-89ee-9d658bf30c63.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\673a84e6-28ec-4b07-89ee-9d658bf30c63.jpg",
       "PackagePath": "staticwebassets\\uploads\\673a84e6-28ec-4b07-89ee-9d658bf30c63.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\674d30a8-3f80-4473-80d9-3dd80562c444.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\674d30a8-3f80-4473-80d9-3dd80562c444.jpg",
       "PackagePath": "staticwebassets\\uploads\\674d30a8-3f80-4473-80d9-3dd80562c444.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\6c0e0c26-59de-47a7-857b-698d78cd2046.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\6c0e0c26-59de-47a7-857b-698d78cd2046.jpg",
       "PackagePath": "staticwebassets\\uploads\\6c0e0c26-59de-47a7-857b-698d78cd2046.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg",
       "PackagePath": "staticwebassets\\uploads\\6f14774b-4e3c-43fd-989c-c07cb75513ef.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\6f1aaa17-c9b2-4220-ba9d-a722a3565cf4.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\6f1aaa17-c9b2-4220-ba9d-a722a3565cf4.jpg",
       "PackagePath": "staticwebassets\\uploads\\6f1aaa17-c9b2-4220-ba9d-a722a3565cf4.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\770fd382-dc12-4e54-be13-082ca77e4f50.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\770fd382-dc12-4e54-be13-082ca77e4f50.png",
       "PackagePath": "staticwebassets\\uploads\\770fd382-dc12-4e54-be13-082ca77e4f50.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\78db2f94-ca5c-4d39-8459-19531c419993.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\78db2f94-ca5c-4d39-8459-19531c419993.png",
       "PackagePath": "staticwebassets\\uploads\\78db2f94-ca5c-4d39-8459-19531c419993.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\791f8ad3-9fa9-4259-8969-b566c26ff40e.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\791f8ad3-9fa9-4259-8969-b566c26ff40e.png",
       "PackagePath": "staticwebassets\\uploads\\791f8ad3-9fa9-4259-8969-b566c26ff40e.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\79711a17-3480-4ff0-aa5e-c2f390cc7e5c.pdf",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\79711a17-3480-4ff0-aa5e-c2f390cc7e5c.pdf",
       "PackagePath": "staticwebassets\\uploads\\79711a17-3480-4ff0-aa5e-c2f390cc7e5c.pdf"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\7bc652c2-2517-4a14-bfc5-7bebb2af30a9.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\79f0e358-a228-4f94-b1d1-788e5bd45867.png",
+      "PackagePath": "staticwebassets\\uploads\\79f0e358-a228-4f94-b1d1-788e5bd45867.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\7bc652c2-2517-4a14-bfc5-7bebb2af30a9.jpg",
       "PackagePath": "staticwebassets\\uploads\\7bc652c2-2517-4a14-bfc5-7bebb2af30a9.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\7dd1b148-9a81-4e85-91f7-47a38610cd9d.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\7dd1b148-9a81-4e85-91f7-47a38610cd9d.png",
       "PackagePath": "staticwebassets\\uploads\\7dd1b148-9a81-4e85-91f7-47a38610cd9d.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\7ee11568-9703-4781-9427-91af02ca9747.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\7ee11568-9703-4781-9427-91af02ca9747.png",
       "PackagePath": "staticwebassets\\uploads\\7ee11568-9703-4781-9427-91af02ca9747.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\7f253a12-39a8-4fb2-b6a1-b94f4c7e376b.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\7f253a12-39a8-4fb2-b6a1-b94f4c7e376b.jpg",
       "PackagePath": "staticwebassets\\uploads\\7f253a12-39a8-4fb2-b6a1-b94f4c7e376b.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\8112fdbe-af67-479b-82d5-3351c07992ff.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\8112fdbe-af67-479b-82d5-3351c07992ff.jpg",
       "PackagePath": "staticwebassets\\uploads\\8112fdbe-af67-479b-82d5-3351c07992ff.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\83774e88-7c49-466b-99db-9d57cf3f5054.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\83774e88-7c49-466b-99db-9d57cf3f5054.png",
       "PackagePath": "staticwebassets\\uploads\\83774e88-7c49-466b-99db-9d57cf3f5054.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\85aa2912-898a-4e9d-81d2-7618cce1e2a4.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\85aa2912-898a-4e9d-81d2-7618cce1e2a4.jpg",
       "PackagePath": "staticwebassets\\uploads\\85aa2912-898a-4e9d-81d2-7618cce1e2a4.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg",
       "PackagePath": "staticwebassets\\uploads\\85d22e5f-7863-4ae2-8272-5b2429798634.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\a313bd81-73df-4f49-8575-8da2360e259c.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\a313bd81-73df-4f49-8575-8da2360e259c.png",
       "PackagePath": "staticwebassets\\uploads\\a313bd81-73df-4f49-8575-8da2360e259c.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\a4be0b45-ba5d-4859-85b0-df891dcf979a.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\a46d7abe-d0ad-426c-a3a1-dbc4c2047acd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a46d7abe-d0ad-426c-a3a1-dbc4c2047acd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\a4be0b45-ba5d-4859-85b0-df891dcf979a.jpg",
       "PackagePath": "staticwebassets\\uploads\\a4be0b45-ba5d-4859-85b0-df891dcf979a.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\a9a759ba-ec4a-4e67-b59f-aaf21a540bc5.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\a9a759ba-ec4a-4e67-b59f-aaf21a540bc5.png",
       "PackagePath": "staticwebassets\\uploads\\a9a759ba-ec4a-4e67-b59f-aaf21a540bc5.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\b80f8848-a01a-455f-8e86-0531bee5d930.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\b80f8848-a01a-455f-8e86-0531bee5d930.jpg",
       "PackagePath": "staticwebassets\\uploads\\b80f8848-a01a-455f-8e86-0531bee5d930.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c00bcf65-d3cb-460b-acd8-2667cfad7bdc.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\c00bcf65-d3cb-460b-acd8-2667cfad7bdc.png",
       "PackagePath": "staticwebassets\\uploads\\c00bcf65-d3cb-460b-acd8-2667cfad7bdc.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c359517e-80ac-4dc5-88db-10036207fde1.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\c359517e-80ac-4dc5-88db-10036207fde1.jpg",
       "PackagePath": "staticwebassets\\uploads\\c359517e-80ac-4dc5-88db-10036207fde1.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg",
       "PackagePath": "staticwebassets\\uploads\\c59491ec-1be1-4930-9657-67d3976dce56.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png",
       "PackagePath": "staticwebassets\\uploads\\c5a9fdd3-d00f-45f0-bf60-cda0c029eda5.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\cd5fe723-abf0-42ee-abd6-7468bd8a30a8.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\cd5fe723-abf0-42ee-abd6-7468bd8a30a8.jpg",
       "PackagePath": "staticwebassets\\uploads\\cd5fe723-abf0-42ee-abd6-7468bd8a30a8.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\e7e6abc5-f938-4a00-bcbc-9b9ad3f0b436.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\e1d47f2a-b62e-4957-9357-7b16dfcc9022.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e1d47f2a-b62e-4957-9357-7b16dfcc9022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\e215ea42-ab13-42dc-91ab-e87af6805141.png",
+      "PackagePath": "staticwebassets\\uploads\\e215ea42-ab13-42dc-91ab-e87af6805141.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\e7e6abc5-f938-4a00-bcbc-9b9ad3f0b436.png",
       "PackagePath": "staticwebassets\\uploads\\e7e6abc5-f938-4a00-bcbc-9b9ad3f0b436.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\e9707186-bfd9-4035-aec5-8bbb68666f46.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\e9707186-bfd9-4035-aec5-8bbb68666f46.png",
       "PackagePath": "staticwebassets\\uploads\\e9707186-bfd9-4035-aec5-8bbb68666f46.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg",
       "PackagePath": "staticwebassets\\uploads\\f019d40b-7200-4146-945e-f425a0457ee5.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f693407a-e236-4bfe-9056-1105c268e8da.png",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\f693407a-e236-4bfe-9056-1105c268e8da.png",
       "PackagePath": "staticwebassets\\uploads\\f693407a-e236-4bfe-9056-1105c268e8da.png"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg",
       "PackagePath": "staticwebassets\\uploads\\f7f84b11-e85b-4fb1-b304-06501e22ab34.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\f91e1c81-3f7a-4257-b122-e9e9612df428.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\f91e1c81-3f7a-4257-b122-e9e9612df428.jpg",
       "PackagePath": "staticwebassets\\uploads\\f91e1c81-3f7a-4257-b122-e9e9612df428.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg",
       "PackagePath": "staticwebassets\\uploads\\fe5b750e-366f-4bb3-b646-62313a6207fc.jpg"
     },
     {
-      "Id": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\wwwroot\\uploads\\fe857eb2-de39-4b85-a794-decccadfc71f.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\wwwroot\\uploads\\fe857eb2-de39-4b85-a794-decccadfc71f.jpg",
       "PackagePath": "staticwebassets\\uploads\\fe857eb2-de39-4b85-a794-decccadfc71f.jpg"
     },
     {

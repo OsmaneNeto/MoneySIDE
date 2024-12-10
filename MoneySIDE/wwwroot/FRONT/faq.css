@@ -1,0 +1,40 @@
+.faq {
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 160%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.banner_titulo-faq {
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+    line-height: 1.1; /* Ajusta o espaçamento entre as linhas */
+    position: absolute; /* Permite posicionamento absoluto */
+    /* margin: 15% 10% 0% 0%; */
+    margin: 10% 26% 0% 0%;
+    /* top: 4em;
+    left: 3em; */
+    transform: translateY(-50%); /* Centraliza verticalmente em relação ao próprio elemento */
+    white-space: nowrap; /* Impede a quebra de texto */
+}
+
+
+.abs-footer {
+    position: absolute;
+    width: 100%;
+    margin: 140% 0% 0% 0%;
+}
+
+
+ /* Media Queries */
+@@media (max-width: 1024px) {
+    .faq {
+        margin-top: 190%;
+    }
+}

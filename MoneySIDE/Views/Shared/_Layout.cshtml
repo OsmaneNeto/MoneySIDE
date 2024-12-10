@@ -45,11 +45,12 @@
             <div class="navegacao__container" >
                 <nav class="navegacao__links">
                     <ul class="lista__navegacao" >
-                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Leanding" asp-action="Index">Leanding</a></li>
-                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Scanner" asp-action="Index">Scanner</a></li>
-                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a></li>
-                        <li class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Analise" asp-action="Index">Analise</a></li>
-                        <li>@await Html.PartialAsync("_LoginPartial") <!-- Inclui o login/cadastro --></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Leanding" asp-action="Index">Leanding</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Scanner" asp-action="Index">Scanner</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Analise" asp-action="Index">Analise</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" href="@Url.Content("~/FRONT/index.html")">Tentativa</a></li>
+                        <li style="color: white;">@await Html.PartialAsync("_LoginPartial") <!-- Inclui o login/cadastro --></li>
                     </ul>
                 </nav>
             </div>

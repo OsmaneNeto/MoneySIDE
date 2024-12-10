@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\views\\leanding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\views\\leanding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\models\\comprovante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\models\\comprovante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\controllers\\registroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\controllers\\registroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\controllers\\comprovantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\controllers\\comprovantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\services\\sendgridemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\services\\sendgridemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\services\\comprovanteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\services\\comprovanteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\controllers\\scannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\controllers\\scannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|c:\\users\\usu\u00E1rio\\onedrive\\documentos\\senai\\money\\moneyside\\views\\analise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5085C38A-9F30-46F6-87BB-01E347E29BD4}|MoneySIDE\\MoneySIDE.csproj|solutionrelative:moneyside\\views\\analise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Views\\Leanding\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoneySIDE\\Views\\Leanding\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Views\\Leanding\\Index.cshtml",
+              "RelativeToolTip": "MoneySIDE\\Views\\Leanding\\Index.cshtml",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAANMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T13:41:43.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Program.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Program.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Program.cs",
+              "RelativeToolTip": "MoneySIDE\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:49:07.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\appsettings.json",
+              "RelativeDocumentMoniker": "MoneySIDE\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\appsettings.json",
+              "RelativeToolTip": "MoneySIDE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T00:29:45.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MoneySIDE\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\appsettings.Development.json",
+              "RelativeToolTip": "MoneySIDE\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T00:30:09.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:17:19.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Comprovante.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Models\\Comprovante.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Models\\Comprovante.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Models\\Comprovante.cs",
+              "RelativeToolTip": "MoneySIDE\\Models\\Comprovante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T13:18:08.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComprovanteController.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Controllers\\ComprovanteController.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Controllers\\ComprovanteController.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Controllers\\ComprovanteController.cs",
+              "RelativeToolTip": "MoneySIDE\\Controllers\\ComprovanteController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:29:34.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Controllers\\RegistrosController.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Controllers\\RegistrosController.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Controllers\\RegistrosController.cs",
+              "RelativeToolTip": "MoneySIDE\\Controllers\\RegistrosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:29:34.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SendGridEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Services\\SendGridEmailSender.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Services\\SendGridEmailSender.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Services\\SendGridEmailSender.cs",
+              "RelativeToolTip": "MoneySIDE\\Services\\SendGridEmailSender.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:39:17.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MoneySIDE\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MoneySIDE\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T01:41:48.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "MoneySIDE\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T01:45:21.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComprovanteService.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Services\\ComprovanteService.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Services\\ComprovanteService.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Services\\ComprovanteService.cs",
+              "RelativeToolTip": "MoneySIDE\\Services\\ComprovanteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:47:48.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Views\\Analise\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoneySIDE\\Views\\Analise\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Views\\Analise\\Index.cshtml",
+              "RelativeToolTip": "MoneySIDE\\Views\\Analise\\Index.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAowM0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T00:29:33.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScannerController.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Controllers\\ScannerController.cs",
+              "RelativeDocumentMoniker": "MoneySIDE\\Controllers\\ScannerController.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\OneDrive\\Documentos\\Senai\\MONEY\\MoneySIDE\\Controllers\\ScannerController.cs",
+              "RelativeToolTip": "MoneySIDE\\Controllers\\ScannerController.cs",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAowM4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:29:34.09Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

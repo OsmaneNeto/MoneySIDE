@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XcDouqWaEI8s0pPfmB7PlKFBdcYuY5zKiIFOyuKzO1PSezS9yhZhp1w3ddVeP3ofOLn4ZEnGlmDNXHJTMtaZkA==",
+  "dgSpecHash": "yrH88pZK2EU7eVb/bZ/T4VVB+o1MokWrRT47vHNizv3vfVbGtbFDmFzOP1ESjlLDj46T4Hi0Ud0T5Vj4pFazdQ==",
   "success": true,
-  "projectFilePath": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\MoneySIDE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\aspose.cells\\24.9.0\\aspose.cells.24.9.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

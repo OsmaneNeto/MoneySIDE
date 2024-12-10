@@ -24433,11 +24433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\MoneySIDE.csproj",
       "projectName": "MoneySIDE",
-      "projectPath": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\MoneySIDE.csproj",
+      "projectPath": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\MoneySIDE.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\ProgramData\\Osmane\\MoneySIDE\\MoneySIDE\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Documents\\MONEY\\MONEY\\MONEY\\MoneySIDE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

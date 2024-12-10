@@ -1,0 +1,56 @@
+
+
+.navegacao__footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.lista__navegacao-footer {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    margin: 95% 0% 10% -45%;
+    flex-direction: row;
+    gap: 3em;
+
+}
+
+.lista-menu__link-footer {
+    position: relative;
+    color: var(--cor-letra-texto, #fff); /* Adicione um fallback para a cor */
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 0.1em; /* Espaço para o underline */
+}
+
+.lista-menu__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.01em; /* Altura da linha */
+    background-color: var(--cor-linha-cabecalho, #949494); /* Adicione um fallback */
+    transition: width 0.5s ease-in-out, left 0.1s ease-in-out;
+}
+
+.lista-menu__link:hover::after {
+    width: 100%; /* A linha se expande completamente sob o link */
+    left: 0;
+}
+
+
+.lista-menu__link:not(:hover)::after {
+    width: 0;
+    left: 0;
+}
+
+.bg-footer {
+    width: 100%;
+    position: absolute;
+    margin: 249.6% 0% 0% 0%;
+    z-index: -1000;
+}

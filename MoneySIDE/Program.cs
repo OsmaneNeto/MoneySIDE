@@ -17,6 +17,7 @@ var connectionString = builder.Configuration.GetConnectionString("ApplicationDbC
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(connectionString));
 //SendGrid
 builder.Services.AddTransient<SendGridEmailSender>();
+
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddRazorPages();
 

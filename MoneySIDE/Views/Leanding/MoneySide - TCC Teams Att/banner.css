@@ -1,0 +1,267 @@
+.banner {
+    background-image: url(assets/Background.svg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.moneyside-banner {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.abs-banner {
+  width: 7em;
+  position: absolute;
+  margin: 9% 93% 0% 0%;
+}
+
+.banner-titulo {
+  font-family: var(--fonte-principal);
+  font-size: 3em;
+  font-weight: 800;
+  line-height: 1; /* Ajusta o espaçamento entre as linhas */
+  position: absolute; /* Permite posicionamento absoluto */
+  /* top: 48%;
+  left: 10%;  */
+  margin: 5% 32% 0% 0%;
+  /* white-space: nowrap;  */
+  color: white;
+  /* Gradiente no texto */
+  /* background: linear-gradient(90deg, #0FF 0%, #006AFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
+}
+
+.banner-paragrafo {
+  color: var(--cor-letra-texto);
+  position: absolute;
+  font-weight: 200;
+  color: rgb(146, 146, 146);
+  /* top: 63%; */
+  /* left: 10%; */
+  margin: 18% 22% 0% 0%;
+  font-size: 1.4em; /* 2rem é mais flexível que 2em */
+}
+
+.banner-botao:hover {
+  background-position: 100% 0; /* Movimenta o background ao passar o mouse */
+  animation: wave 3s ease infinite; /* Aplica a animação de "ondas" ao passar o mouse */
+}
+
+.banner-link-botao {
+  color: var(--cor-letra-botao);
+  text-decoration: none;
+  font-weight: 600;
+  font-family: var(--fonte-principal);
+}
+
+.banner-botao {
+  padding: 0.5em 4em;
+  border: none;
+  position: absolute;
+  background:#d4d4d4;
+  top: 30em;
+  left: 10%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+@@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+  
+  .logos {
+    overflow: hidden;
+    padding: 2.5em 0;
+    background: rgba(0, 0, 0, 0.2); /* Fundo preto com 50% de transparência */
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para navegadores WebKit */
+    white-space: nowrap;
+    position: relative;
+  }   
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+  }
+  
+  .logos:after {
+    right: 0;
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: auto;
+    margin: 0 40px;
+  }
+
+.cartoes-banner {
+  width: 25%;
+  right: 0;
+  position: absolute;
+  top: 43%;
+}
+
+.circulo-banner {
+  width: 12%;
+  position: absolute;
+  left: 0;
+}
+
+.input-container {
+  flex: 1; /* Faz o campo de texto ocupar todo o espaço disponível */
+  width: 45em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  /* top: 75%;
+  left: 10%; */
+  margin: 33% 33% 0% 0%;
+  background-color: #141414; /* Cor de fundo do campo de texto */
+  border-radius: 50px; /* Deixa as bordas arredondadas */
+  overflow: hidden; /* Garante que o botão não extrapole o contêiner */
+}
+
+.email-input {
+  flex: 1;
+  padding: 0.5em 1em;
+  border: none;
+  font-size: 1rem;
+  color: #a5a5a5;
+  background: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.email-input::placeholder {
+  color: #454545;
+}
+
+.send-button {
+  padding: 0.7em 3em;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0062ff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 25px; /* Arredonda completamente o botão */
+}
+
+.send-button:hover {
+  background-color: #0052cc;
+}
+
+@@media (max-width: 1414px) {
+
+    .banner {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .banner-paragrafo {
+        font-size: 1.3em;
+        margin: 20% 30% 0 10%;
+    }
+
+    .banner-titulo {
+        font-size: 3em;
+        margin: 5% 26% 0% 0%;
+    }
+
+    .input-container {
+        width: 55%;
+        margin: 45% 33% 0 10%;
+    }
+
+    .cartoes-banner {
+        width: 25%;
+        top: 54%;
+    }
+}
+
+/* Ajustes para telas maiores */
+
+
+/* Ajustes para telas maiores */
+@@media (max-width: 1024px) {
+    .banner {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .banner-titulo {
+        font-size: 2em;
+        margin: 5% 30% 0% 0%;
+    }
+
+    .banner-paragrafo {
+        font-size: 1em;
+        margin: 20% 26% 0 10%;
+    }
+
+    .input-container {
+        width: 60%;
+        margin: 40% 28% 0 10%;
+    }
+
+    .cartoes-banner {
+        width: 24%;
+        top: 53%;
+    }
+}
+
+@@media (max-width: 1350px) {
+
+    .banner-titulo {
+        font-size: 3em;
+        margin: 5% 25% 0% 0%;
+    }
+
+    .banner-paragrafo {
+        font-size: 1.3em;
+        margin: 20% 19% 0% 0%;
+    }
+
+    .input-container {
+        width: 60%;
+        margin: 45% 30% 0 10%;
+    }
+}
+

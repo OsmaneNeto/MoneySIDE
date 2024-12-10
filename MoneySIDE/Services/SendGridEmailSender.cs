@@ -17,32 +17,42 @@ namespace CodeData.Services
 
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-            string sendGridApiKey = configuration["Email:SENDGRID_API_KEY"];
-            if (string.IsNullOrEmpty(sendGridApiKey))
+            try
             {
-                throw new Exception("The 'SendGridApiKey' is not configured");
-            }
+                // Obtendo a chave da API do SendGrid
+                string sendGridApiKey = "";
+                if (string.IsNullOrEmpty(sendGridApiKey))
+                {
+                    throw new Exception("The 'SendGridApiKey' is not configured. Please check your appsettings.json file.");
+                }
 
-            var client = new SendGridClient(sendGridApiKey);
-            var msg = new SendGridMessage()
-            {
-                From = new EmailAddress(configuration["Email:FROM"], "MoneySIDE LTDA"),
-                Subject = subject,
-                PlainTextContent = message,
-                HtmlContent = message
-            };
-            msg.AddTo(new EmailAddress(toEmail));
+                var client = new SendGridClient(sendGridApiKey);
+                var msg = new SendGridMessage()
+                {
+                    From = new EmailAddress("", "MoneySIDE LTDA"),
+                    Subject = subject,
+                    PlainTextContent = message,
+                    HtmlContent = message
+                };
+                msg.AddTo(new EmailAddress(toEmail));
 
-            var response = await client.SendEmailAsync(msg);
-            if (response.IsSuccessStatusCode)
-            {
-                logger.LogInformation("Email queued successfully");
+                // Enviando o e-mail e verificando a resposta
+                var response = await client.SendEmailAsync(msg);
+                if (response.IsSuccessStatusCode)
+                {
+                    logger.LogInformation("Email queued successfully");
+                }
+                else
+                {
+                    var responseBody = await response.Body.ReadAsStringAsync();
+                    logger.LogError($"Failed to send email. Status Code: {response.StatusCode}, Body: {responseBody}");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                logger.LogError("Failed to send email");
-                // Adding more information related to the failed email could be helpful in debugging failure,
-                // but be careful about logging PII, as it increases the chance of leaking PII
+                // Capturando exceções gerais e logando o erro
+                logger.LogError(ex, "An error occurred while sending the email.");
+                throw; // Opcional: Repropagar a exceção se necessário
             }
         }
     }

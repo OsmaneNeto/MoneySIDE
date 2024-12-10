@@ -1,0 +1,26 @@
+@@import url(header.css);
+@@import url(banner.css);
+@@import url(sobre.css);
+@@import url(recursos.css);
+@@import url(faq.css);
+@@import url(footer.css);
+
+:root {
+    --cor-de-fundo: #000000;
+    --cor-letra-botao: #000000;
+    --cor-letra-texto: #ffffff;
+    --cor-fundo-botao: linear-gradient(90deg, #CFCFCF 0%, #999 100%);
+    --fonte-principal: "Manrope", sans-serif;
+    --cor-titulo-sobre: linear-gradient(90deg, #000000 -0.82%, #000000 100.66%);
+}
+
+html, body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+

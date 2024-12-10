@@ -1,0 +1,174 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 2em; /* Ajuste o padding se necessário */
+    box-sizing: border-box; /* Inclui padding e border no width e height total */
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent; /* Inicialmente transparente */
+    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+    transition: background 1s ease; /* Transição suave para o fundo */
+}
+
+.cabecalho--scrolled {
+    background: rgba(18, 18, 18, 0.5); /* Fundo cinza transparente quando rolado */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.container__logotipo {
+    padding: 0.5em;
+    margin-left: 6.5em;
+    width: 4em;
+    display: flex;
+    position: relative;
+}
+
+.navegacao__container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.lista__navegacao {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-menu__item {
+    margin: 0 1.5em;
+}
+
+.lista-menu__link {
+    position: relative;
+    color: var(--cor-letra-texto, #fff); /* Adicione um fallback para a cor */
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 0.1em; /* Espaço para o underline */
+}
+
+.lista-menu__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.01em; /* Altura da linha */
+    background-color: var(--cor-linha-cabecalho, #949494); /* Adicione um fallback */
+    transition: width 0.5s ease-in-out, left 0.1s ease-in-out;
+}
+
+.lista-menu__link:hover::after {
+    width: 100%; /* A linha se expande completamente sob o link */
+    left: 0;
+}
+
+
+.lista-menu__link:not(:hover)::after {
+    width: 0;
+    left: 0;
+}
+
+.container__botao {
+    background: linear-gradient(90deg, #CFCFCF 0%, #999 100%);
+    padding: 0.5em 3em;
+    border: none;
+    position: relative;
+    right: 6em;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--cor-letra-botao);
+    text-decoration: none;
+    background-size: 300%; /* Faz com que o degradê tenha uma largura maior para animar */
+    transition: background-position 0.5s ease; /* Transição suave para o movimento das cores */
+}
+
+.container__botao:hover {
+    background-position: 100% 0; /* Movimenta o background ao passar o mouse */
+}
+
+@@keyframes wave {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container__botao:hover {
+    animation: wave 3s ease infinite; /* Aplica a animação de "ondas" ao passar o mouse */
+}
+
+.container-link__botao {
+    color: var(--cor-letra-botao);
+    text-decoration: none;
+    font-weight: 300;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+}
+
+/* Media Queries */
+@@media (max-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    .container__logotipo {
+        margin-left: 2em;
+    }
+
+    .navegacao__container {
+        margin: 1em 0;
+        width: 100%;
+    }
+
+    .lista__navegacao {
+        flex-direction: row;
+        align-items: center;
+        gap: 3em;
+        width: 100%;
+    }
+
+    .lista-menu__item {
+        margin: 0.5em 0;
+    }
+
+    .container__botao {
+        margin: 1em 0 0 0;
+    }
+}
+
+@@media (max-width: 480px) {
+    .container__botao {
+        padding: 0.5em 1.5em;
+        font-size: 0.9rem;
+    }
+
+    .lista-menu__link {
+        font-size: 0.9rem;
+    }
+}

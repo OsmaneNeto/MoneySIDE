@@ -1,0 +1,246 @@
+@{
+    ViewData["Title"] = "Leanding Page";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="recursos.css">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+    <title>MoneySide - Soluções Financeiras</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html">
+                <img class="container__logotipo" src="assets/Logo_MoneySide.svg" alt="Logotipo do GroovyLab">
+            </a>
+            <!-- Navegação -->
+            <div class="navegacao__container">
+                <nav class="navegacao__links">
+                    <ul class="lista__navegacao">
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Leanding" asp-action="Index">Leanding</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Scanner" asp-action="Index">Scanner</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Analise" asp-action="Index">Analise</a></li>
+                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" href="@Url.Content(" ~/FRONT/index.html")">Tentativa</a></li>
+                        <li style="color: white;">@await Html.PartialAsync("_LoginPartial") <!-- Inclui o login/cadastro --></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="banner">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <img class="moneyside-banner" src="assets/Moneyside.svg" alt="">
+        <img class="abs-banner" src="assets/abs-banner.svg" alt="">
+        <h1 class="banner-titulo">Gestão financeira com <br> dashboards e análise de dados.</h1>
+        <p class="banner-paragrafo">Utilizando uma combinação de ferramentas modernas e calibradas, o MoneySide oferece <br> uma plataforma intuitiva e poderosa que facilita o acompanhamento das receitas, <br> despesas e investimentos.</p>
+        <div class="input-container">
+            <input type="email" class="email-input" placeholder="Digite o seu melhor e-mail:">
+            <button class="send-button">Enviar</button>
+        </div>
+        <!-- <button class="banner-botao" type="button">
+            <a class="banner-link-botao" href="#">Conhecer</a>
+        </button> -->
+        <img class="cartoes-banner" src="assets/Cartao.png" alt="">
+
+    </section>
+    <div class="logos">
+        <div class="logos-slide">
+            <img src="assets/Empresa01.svg" />
+            <img src="assets/Empresa02.svg" />
+            <img src="assets/Empresa03.svg" />
+            <img src="assets/Empresa04.svg" />
+            <img src="assets/Empresa06.svg" />
+            <img src="assets/Empresa07.svg" />
+            <img src="assets/Empresa08.svg" />
+            <img src="assets/Empresa10.svg" />
+            <img src="assets/Empresa11.svg" />
+            <img src="assets/Empresa12.svg" />
+            <img src="assets/Empresa13.svg" />
+            <img src="assets/Empresa14.svg" />
+        </div>
+    </div>
+    <!-- Section Sobre -->
+    <section id="sobre" class="container__sobre">
+        <h2 class="banner__titulo-sobre">
+            Você gerencia o seu dinheiro com <br>
+            ferramentas inteligentes.</h1>
+            <img class="card1" src="assets/Card1-sobre.svg" alt="">
+            <img class="container__sobre-ondas" src="assets/Ondas.svg" alt="">
+            <img class="card2" src="assets/Dinheiro.svg" alt="">
+            <img class="card3" src="assets/Dívidas.svg" alt="">
+    </section>
+
+    <!-- Section Recursos -->
+    <section id="recursos" class="container__recursos">
+        <h2 class="banner__titulo-recursos">
+            O MoneySide é completo de diversos recursos e <br> ferramentas modernas.</h1>
+            <img class="container__recursos-abs" src="assets/abs-recursos.svg" alt="">
+            <img class="container__recursos-ondas" src="assets/Ondas-recursos.svg" alt="">
+            <img class="container__recursos-cartoes" src="assets/lupa-faq.svg" alt="">
+            <img class="container__recursos-texto" src="assets/Texto-recursos.svg" alt="">
+
+            <!-- Agrupamento de Cards -->
+            <img class="vetor-recursos" src="assets/Vector-recursos.svg" alt="">
+            <div class="container-card">
+                <img class="card-precisao" src="assets/card-precisao.svg" alt="">
+                <img class="card-relatorios" src="assets/card-relatorios.svg" alt="">
+                <img class="card-criptografia" src="assets/card-criptografia.svg" alt="">
+                <img class="card-rentabilidade" src="assets/card-rentabilidade.svg" alt="">
+                <img class="card-metas" src="assets/card-metas.svg" alt="">
+                <img class="card-usabilidade" src="assets/card-usabilidade.svg" alt="">
+            </div>
+
+            <h2 class="banner__titulo-recursos financas">
+                O controle de
+                suas finanças parece algo <br> complicado? O MoneySide facilita para você.
+            </h2>
+            <!-- <img class="ring-recursos" src="assets/ring-abs.svg" alt="">   -->
+            <p class="recursos-paragrafo">
+                Se o controle das suas dívidas parece distante,
+                o MoneySide é a ponte para <br> transformá-lo em  realidade.
+                A plataforma oferece as ferramentas  que você <br> precisa para
+                entender, gerenciar e, principalmente, superar seus desafios
+                financeiros.
+            </p>
+            <!-- <img class="waves-recursos" src="assets/waves-recursos.svg" alt=""> -->
+            <img class="iphone-recursos" src="assets/iphone-recursos.svg" alt="">
+            <img class="gastos-recursos" src="assets/gastos-recursos.svg" alt="">
+            <img class="total-recursos" src="assets/total-ganho.svg" alt="">
+
+            <div class="cubo-magico">
+                <div class="cube">
+                    <div style="--x:-1; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                    <div style="--x:0; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                    <div style="--x:1; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                </div>
+                <div class="cube">
+                    <div style="--x:-1; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                    <div style="--x:0; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                    <div style="--x:1; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                </div>
+                <div class="cube">
+                    <div style="--x:-1; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                    <div style="--x:0; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                    <div style="--x:1; --y:0;">
+                        <span style="--i:3;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:1;"></span>
+                    </div>
+                </div>
+            </div>
+            <h2 class="banner__titulo-recursos animation-cube">
+                Desbloqueie uma nova forma de
+                lidar <br> com dinheiro. Descomplique suas contas.
+            </h2>
+            <div class="card">
+                <div class="card__side card__side_front">
+                    <div class="flex__1">
+                        <p class="card__side__name-bank">MoneySide</p>
+                        <div class="card__side__chip"></div>
+                        <p class="card__side__name-person">Eduardo L.</p>
+                    </div>
+                </div>
+                <div class="card__side card__side_back">
+                    <div class="card__side__black"></div>
+                    <p class="card__side__number">0175 4724 5724 8796</p>
+                    <div class="flex__2">
+                        <p class="card__side__other-numbers card__side__other-numbers_1">12/29</p>
+                        <p class="card__side__other-numbers card__side__other-numbers_2">977</p>
+                        <div class="card__side__photo"><img class="logo-card" src="assets/Logo_MoneySide.svg" alt=""></div>
+                        <div class="card__side__debit">credit</div>
+                    </div>
+                    <p class="card__side__other-info">
+                        MONOBANK.UA | 0 800 205 205 |
+                        АТ "УНІВЕРСАЛ БАНК". ЛІЦЕНЗІЯ
+                        НБУ №92 ВІД 20.01.1994 |
+                        PCE PC100650 WORLD DEBIT
+                    </p>
+                </div>
+            </div>
+            <h2 class="banner__titulo-recursos animation-card">Obtenha controle absoluto sobre <br> os seus gastos.</h2>
+            <img class="glow-recursos-right" src="assets/glow-recursos.svg" alt="">
+            <img class="glow-recursos-left" src="assets/glow-recursos-left.svg" alt="">
+    </section>
+    <section class="faq">
+        <img class="abs-footer" src="assets/abs-footer.svg" alt="">
+    </section>
+    <footer class="rodape">
+        <div class="navegacao__footer">
+            <img class="bg-footer" src="assets/bg-footer.svg" alt="">
+            <nav class="navegacao__links-footer">
+                <ul class="lista__navegacao-footer">
+                    <li class="lista-menu__item-footer"><a class="lista-menu__link-footer" href="#sobre">Sobre</a></li>
+                    <li class="lista-menu__link-footer"><a class="lista-menu__link-footer" href="#recursos">Recursos</a></li>
+                    <li class="lista-menu__link-footer"><a class="lista-menu__link-footer" href="#">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
+</body>
+
+</html>
