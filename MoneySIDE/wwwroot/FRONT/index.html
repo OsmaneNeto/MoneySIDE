@@ -25,24 +25,44 @@
     <title>MoneySide - Soluções Financeiras</title>
 </head>
 <body>
+    <style>
+        /* Estilizando o body para permitir rolagem */
+        body {
+            overflow: auto; /* Permite rolagem se necessário */
+            margin: 0; /* Remove margens padrão */
+            height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+        }
+
+        /* Estilizando as barras de rolagem para navegadores WebKit */
+        ::-webkit-scrollbar {
+            width: 12px; /* Largura da barra de rolagem */
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000; /* Cor do fundo da barra de rolagem */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #000; /* Cor da barra de rolagem */
+            border-radius: 6px; /* Bordas arredondadas */
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555; /* Cor da barra de rolagem ao passar o mouse */
+            }
+
+        /* Estilizando as barras de rolagem para Firefox */
+        html {
+            scrollbar-width: thin; /* Largura da barra de rolagem */
+            scrollbar-color: #000 #000; /* Cor da barra de rolagem e do fundo */
+        }
+    </style>
     <header class="cabecalho">
         <div class="container">
             <a href="index.html">
                 <img class="container__logotipo" src="assets/Logo_MoneySide.svg" alt="Logotipo do GroovyLab">
             </a>
-            <!-- Navegação -->
-            <div class="navegacao__container">
-                <nav class="navegacao__links">
-                    <ul class="lista__navegacao">
-                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Leanding" asp-action="Index">Leanding</a></li>
-                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Scanner" asp-action="Index">Scanner</a></li>
-                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a></li>
-                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" asp-area="" asp-controller="Analise" asp-action="Index">Analise</a></li>
-                        <li style="color: white;" class="lista-menu__item"><a class="nav-link" href="@Url.Content(" ~/FRONT/index.html")">Tentativa</a></li>
-                        <li style="color: white;">@await Html.PartialAsync("_LoginPartial") <!-- Inclui o login/cadastro --></li>
-                    </ul>
-                </nav>
-            </div>
+           
 
         </div>
     </header>

@@ -24,3 +24,20 @@ html, body {
 }
 
 
+/* Estilizando as barras de rolagem para navegadores WebKit */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #000; /* Cor do fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000; /* Cor da barra de rolagem */
+    border-radius: 6px; /* Bordas arredondadas */
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Cor da barra de rolagem ao passar o mouse */
+    }
